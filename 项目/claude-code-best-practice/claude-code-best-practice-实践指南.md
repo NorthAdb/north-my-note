@@ -9,18 +9,18 @@
 
 本仓库自带全套中文学习文档（位于 `doc/` 目录），请**按以下顺序阅读**：
 
-| 序号 | 文档 | 内容 | 建议时间 |
-|------|------|------|----------|
-| 1 | [doc/01-CONCEPTS-概念总览.md](../doc/01-CONCEPTS-概念总览.md) | Claude Code 所有核心概念的中文解释 | Day 1 |
-| 2 | [doc/02-子代理-subagents.md](../doc/02-子代理-subagents.md) | Subagent 定义、字段、最佳实践 | Day 2 |
-| 3 | [doc/03-命令-commands.md](../doc/03-命令-commands.md) | Command 定义、85 个系统命令列表 | Day 3 |
-| 4 | [doc/04-技能-skills.md](../doc/04-技能-skills.md) | Skill 定义、设计原则、两种模式 | Day 3 |
-| 5 | [doc/05-设置-settings.md](../doc/05-设置-settings.md) | 完整配置项说明（权限、模型、显示等） | Day 4 |
-| 6 | [doc/06-MCP服务器-mcp.md](../doc/06-MCP服务器-mcp.md) | MCP 配置、推荐服务器、权限规则 | Day 5 |
-| 7 | [doc/07-记忆系统-memory.md](../doc/07-记忆系统-memory.md) | 三层记忆体系（CLAUDE.md + rules + Auto Memory） | Day 5 |
-| 8 | [doc/08-CLI启动参数-cli-startup-flags.md](../doc/08-CLI启动参数-cli-startup-flags.md) | 启动参数速查表 | Day 6 |
-| 9 | [doc/09-能力强化-power-ups.md](../doc/09-能力强化-power-ups.md) | 10 个交互式教学课程 | Day 6 |
-| 10 | [doc/10-学习路径.md](../doc/10-学习路径.md) | 从入门到精通的详细路线图 | Day 7 |
+| 序号  | 文档                                                                            | 内容                                      | 建议时间  |
+| --- | ----------------------------------------------------------------------------- | --------------------------------------- | ----- |
+| 1   | [doc/01-CONCEPTS-概念总览.md](../doc/01-CONCEPTS-概念总览.md)                         | Claude Code 所有核心概念的中文解释                 | Day 1 |
+| 2   | [doc/02-子代理-subagents.md](../doc/02-子代理-subagents.md)                         | Subagent 定义、字段、最佳实践                     | Day 2 |
+| 3   | [doc/03-命令-commands.md](../doc/03-命令-commands.md)                             | Command 定义、85 个系统命令列表                   | Day 3 |
+| 4   | [doc/04-技能-skills.md](../doc/04-技能-skills.md)                                 | Skill 定义、设计原则、两种模式                      | Day 3 |
+| 5   | [doc/05-设置-settings.md](../doc/05-设置-settings.md)                             | 完整配置项说明（权限、模型、显示等）                      | Day 4 |
+| 6   | [doc/06-MCP服务器-mcp.md](../doc/06-MCP服务器-mcp.md)                               | MCP 配置、推荐服务器、权限规则                       | Day 5 |
+| 7   | [doc/07-记忆系统-memory.md](../doc/07-记忆系统-memory.md)                             | 三层记忆体系（CLAUDE.md + rules + Auto Memory） | Day 5 |
+| 8   | [doc/08-CLI启动参数-cli-startup-flags.md](../doc/08-CLI启动参数-cli-startup-flags.md) | 启动参数速查表                                 | Day 6 |
+| 9   | [doc/09-能力强化-power-ups.md](../doc/09-能力强化-power-ups.md)                       | 10 个交互式教学课程                             | Day 6 |
+| 10  | [doc/10-学习路径.md](../doc/10-学习路径.md)                                           | 从入门到精通的详细路线图                            | Day 7 |
 
 ---
 
