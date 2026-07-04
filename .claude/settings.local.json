@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Recurse -Depth 1 -Force D:\\\\northadb-my-note)",
+      "Bash(Select-Object Mode, Length, Name)",
+      "Bash(git init *)"
+    ]
+  }
+}

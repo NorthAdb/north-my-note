@@ -1,0 +1,17 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/cache
+.obsidian/plugins/
+.obsidian/themes/
+.trash/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Tools
+.claudian/
+
+# Others
+*.log
