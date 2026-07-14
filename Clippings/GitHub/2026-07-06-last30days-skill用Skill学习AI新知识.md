@@ -14,11 +14,11 @@ source: "https://mp.weixin.qq.com/s/XYYV68sGT8KFxh6rCJZwkw"
 
 ## 项目信息
 
-| 项目 | 数据 |
-|------|:----:|
-| 仓库 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) |
-| ⭐ Stars | **48.8k** |
-| 📝 语言 | Python |
+| 项目      |                                    数据                                     |
+| ------- | :-----------------------------------------------------------------------: |
+| 仓库      | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) |
+| ⭐ Stars |                                 **48.8k**                                 |
+| 📝 语言   |                                  Python                                   |
 
 ---
 
