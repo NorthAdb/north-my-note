@@ -1,7 +1,7 @@
 # 00a — WireGuard 背景与 PQ-SecTunnel 对比
 
 > 状态：正文 | 权威源：WireGuard 官方文档 + 白皮书 + 本仓库源码  
-> 建议：**先读本章再读 [01](01-项目定位与改造动机.md)** | 调研笔记：[../research/wireguard-background.md](wireguard-background.md)
+> 建议：**先读本章再读 [01](01-项目定位与改造动机.md)** | 调研笔记：[../research/wireguard-background.md](../research/wireguard-background.md)
 
 ---
 
@@ -372,7 +372,7 @@ KEM 握手下 Responder 更需要 Initiator 证明「我也算出了 TK」。
 | 1.5-RTT 时序  | [02](02-协议总览.md)                                                           |
 | 逐步握手        | [03](03-握手协议逐步详解.md)                                                       |
 | 分片          | [06](06-分片与MTU.md)                                                         |
-| 调研笔记（带 URL） | [../research/wireguard-background.md](wireguard-background.md) |
+| 调研笔记（带 URL） | [../research/wireguard-background.md](../research/wireguard-background.md) |
 
 
 

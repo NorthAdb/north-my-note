@@ -1,0 +1,31 @@
+/* 取消勾选 checkbox 后的删除线和文字变灰效果 */
+
+/* 阅读模式（Reading View） */
+.markdown-reading-view ul > li.task-list-item[data-task="x"] {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* 实时预览 / 编辑模式（Live Preview / Source Mode） */
+.markdown-source-view .HyperMD-task-line[data-task="x"] {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* 部分主题可能对 a 标签有额外处理 */
+.markdown-reading-view ul > li.task-list-item[data-task="x"] a {
+  color: inherit !important;
+}
+
+.markdown-source-view .HyperMD-task-line[data-task="x"] a {
+  color: inherit !important;
+}
+
+/* checkbox 圆圈保留灰色可辨识 */
+.markdown-reading-view ul > li.task-list-item[data-task="x"]::marker {
+  color: var(--text-faint);
+}
+
+.markdown-source-view .HyperMD-task-line[data-task="x"] .task-list-label {
+  color: var(--text-faint);
+}

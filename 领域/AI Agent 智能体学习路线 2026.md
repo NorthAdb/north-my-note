@@ -48,14 +48,14 @@ Stage 9: 生产部署与运维
 
 ### 前置知识
 
-| 技能 | 说明 | 工具/资源 |
-|------|------|----------|
-| **Python / TypeScript** | Agent 开发主流语言 | Python 优先，TS 用于产品化 |
-| **包管理** | 环境管理 | uv / pip / conda / npm |
-| **API 使用** | 调用 LLM API | OpenAI、Anthropic、Google AI SDK |
-| **Prompt Engineering** | 提示词工程 | 结构化提示、Few-shot、Chain-of-Thought |
-| **JSON / YAML** | 结构化数据 | JSON Schema、Pydantic |
-| **Git** | 版本控制 | GitHub、Git Flow |
+| 技能                      | 说明           | 工具/资源                           |
+| ----------------------- | ------------ | ------------------------------- |
+| **Python / TypeScript** | Agent 开发主流语言 | Python 优先，TS 用于产品化              |
+| **包管理**                 | 环境管理         | uv / pip / conda / npm          |
+| **API 使用**              | 调用 LLM API   | OpenAI、Anthropic、Google AI SDK  |
+| **Prompt Engineering**  | 提示词工程        | 结构化提示、Few-shot、Chain-of-Thought |
+| **JSON / YAML**         | 结构化数据        | JSON Schema、Pydantic            |
+| **Git**                 | 版本控制         | GitHub、Git Flow                 |
 
 ### 推荐学习资源
 
