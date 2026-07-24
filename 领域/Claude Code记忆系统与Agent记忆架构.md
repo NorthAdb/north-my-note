@@ -377,5 +377,5 @@ AI Agent 的记忆系统通常分为五层：
 ## 🔗 关联笔记
 
 - [[Clippings/Bilibili/2026-07-04-我的B站AI编程收藏清单.md]] — 你收藏的 Claude Code 教程
-- [[Clippings/GitHub/2026-07-04-GitHub高星项目速览.md]] — cognee、MemPalace 等记忆项目
+- [[2026-07-04-GitHub高星项目速览]] — cognee、MemPalace 等记忆项目
 - [[.claudian/claudian-settings.json]] — 你的 Claudian 配置中的记忆相关设置

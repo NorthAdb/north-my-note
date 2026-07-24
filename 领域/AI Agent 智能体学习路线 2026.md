@@ -557,5 +557,5 @@ Stage 7-9 高级应用 + 部署                  4-6 周
 - [[领域/Claude Code记忆系统与Agent记忆架构.md]] — Agent 记忆系统详解
 - [[领域/Python vs TypeScript AI时代编程语言之争.md]] — 开发语言选择参考
 - [[领域/CodeWiki Google的AI驱动代码文档平台.md]] — AI 文档工具
-- [[Clippings/GitHub/2026-07-04-我的GitHub加星项目.md]] — Agent 相关项目
+- [[2026-07-04-我的GitHub加星项目]] — Agent 相关项目
 - [[Clippings/Bilibili/2026-07-04-我的B站AI编程收藏清单.md]] — 视频学习资源
