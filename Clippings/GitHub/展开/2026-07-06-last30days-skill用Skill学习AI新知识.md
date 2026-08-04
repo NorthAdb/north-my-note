@@ -86,5 +86,5 @@ npx skills add mvanhorn/last30days-skill -g
 
 ## 🔗 关联笔记
 
-- 已收录在 [[Clippings/Bilibili/2026-07-04-我的B站AI编程收藏清单.md]] 中
-- 类似的 Agent Skills 参见 [[2026-07-04-GitHub高星项目速览]]
+- 已收录在 [[Clippings/Bilibili/2026-07-28-我的B站AI编程收藏清单.md]] 中
+- 类似的 Agent Skills 参见 [[2026-07-28-GitHub高星项目速览]]

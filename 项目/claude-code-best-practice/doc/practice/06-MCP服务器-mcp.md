@@ -180,11 +180,12 @@ Claude 在工具列表中看到全部工具，需要时直接调用
 
 MCP 服务器可以在三个层级定义：
 
-| 层级 | 位置 | 用途 |
-|------|------|------|
-| **项目级** | `.mcp.json`（项目根目录） | 团队共享，提交到 git |
-| **用户级** | `~/.claude.json`（`mcpServers` 键） | 个人跨项目配置 |
-| **Subagent 级** | Agent frontmatter（`mcpServers` 字段） | 特定 agent 专用 |
+| 层级             | 位置                                 | 用途           |
+| -------------- | ---------------------------------- | ------------ |
+| **项目级**        | `.mcp.json`（项目根目录）                 | 团队共享，提交到 git |
+| **用户级**        | `~/.claude.json`（`mcpServers` 键）   | 个人跨项目配置      |
+| **Subagent 级** | Agent frontmatter（`mcpServers` 字段） | 特定 agent 专用  |
+|                |                                    |              |
 
 **优先级：** Subagent > Project > User
 

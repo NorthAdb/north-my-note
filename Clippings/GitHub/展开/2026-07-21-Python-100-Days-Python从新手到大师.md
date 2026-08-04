@@ -155,6 +155,6 @@ Day91-100 ── 团队项目 + Docker + 部署 + 面试
 
 ## 🔗 关联笔记
 
-- [[Clippings/GitHub/2026-07-21-system-design-primer-系统设计面试指南]] — 系统设计面试准备
+- [[2026-07-21-system-design-primer-系统设计面试指南]] — 系统设计面试准备
 - [[领域/AI Agent 智能体学习路线 2026]] — 后续 AI 进阶可以参考
 - [[领域/Java后端+Agent开发学习路线 2026]] — 对比学习不同语言路线

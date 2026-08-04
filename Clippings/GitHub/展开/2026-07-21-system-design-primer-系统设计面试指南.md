@@ -143,4 +143,4 @@ source:
 
 - [[领域/Java后端+Agent开发学习路线 2026]] — 系统设计是后端进阶必备
 - [[项目/Javase/JavaSE 学习清单]] — Java 基础打牢后才能深入系统设计
-- [[Clippings/GitHub/2026-07-04-GitHub高星项目速览]] — 其他高星项目
+- [[Clippings/GitHub/总结/2026-07-28-GitHub高星项目速览]] — 其他高星项目

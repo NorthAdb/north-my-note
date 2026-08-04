@@ -136,4 +136,4 @@ git push -u origin add-你的名字
 
 - [[领域/AI Agent 智能体学习路线 2026]] — 开源学习路径中的实践项目
 - [[项目/Javase/JavaSE 学习清单]] — 用 Git 管理学习进度的实践
-- [[Clippings/GitHub/2026-07-04-GitHub高星项目速览]] — GitHub 高星项目汇总
+- [[Clippings/GitHub/总结/2026-07-28-GitHub高星项目速览]] — GitHub 高星项目汇总

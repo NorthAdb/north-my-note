@@ -152,11 +152,11 @@ Level 8: 完整的 Agent 应用（产品级）
 
 #### 推荐实战项目
 
-| 项目 | 技术栈 | 说明 |
-|------|--------|------|
-| **Enterprise AI 知识库平台** | Java + Spring AI + ChromaDB | RAG 完整链路，[[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目\|详情]] |
-| **Music AI Agent** | Java + LangChain4j + DeepSeek + MCP | Agent + Tool Calling，[[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目\|详情]] |
-| **DeerFlow 二次开发** | 推荐 by We1L | 在生产级 Agent 框架上做二次开发，面试更认可 |
+| 项目                      | 技术栈                                 | 说明                                                          |
+| ----------------------- | ----------------------------------- | ----------------------------------------------------------- |
+| **Enterprise AI 知识库平台** | Java + Spring AI + ChromaDB         | RAG 完整链路，[[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目\|详情]]             |
+| **Music AI Agent**      | Java + LangChain4j + DeepSeek + MCP | Agent + Tool Calling，[[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目\|详情]] |
+| **DeerFlow 二次开发**       | 推荐 by We1L                          | 在生产级 Agent 框架上做二次开发，面试更认可                                   |
 
 > We1L 建议：Agent 项目怕被面试官嫌弃"玩具"，建议在 **deerflow** 等生产级框架上做二次开发。
 
