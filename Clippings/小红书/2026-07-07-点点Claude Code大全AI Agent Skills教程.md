@@ -46,14 +46,14 @@ Skills 是让 Agent "专业化" 的方式，本质是一组**结构化的提示�
 
 ## 三、常见 Skills 分类
 
-| 分类 | 示例 Skills |
-|------|------------|
+| 分类      | 示例 Skills                                       |
+| ------- | ----------------------------------------------- |
 | **代码类** | code-review、refactor、test-generator、code-format |
-| **文档类** | doc-writer、changelog、README-generator、api-doc |
-| **运维类** | deploy-helper、log-analyzer、docker-manager |
-| **数据类** | sql-runner、csv-explorer、data-analyzer |
-| **研究类** | web-search、paper-summarizer、last30days |
-| **工程类** | tdd、grilling、wayfinder、adr |
+| **文档类** | doc-writer、changelog、README-generator、api-doc   |
+| **运维类** | deploy-helper、log-analyzer、docker-manager       |
+| **数据类** | sql-runner、csv-explorer、data-analyzer           |
+| **研究类** | web-search、paper-summarizer、last30days          |
+| **工程类** | tdd、grilling、wayfinder、adr                      |
 
 ---
 
@@ -110,4 +110,4 @@ Skills 是让 Agent "专业化" 的方式，本质是一组**结构化的提示�
 - [[领域/Claude Code记忆系统与Agent记忆架构.md]] — Claude Code 记忆系统详解
 - [[领域/AI Agent 智能体学习路线 2026.md]] — 完整学习路线
 - [[领域/Python vs TypeScript AI时代编程语言之争.md]] — Agent 开发语言选择
-- [[Clippings/GitHub/2026-07-04-GitHub高星项目速览.md]] — Skills 相关高星项目
+- [[2026-07-28-GitHub高星项目速览]] — Skills 相关高星项目

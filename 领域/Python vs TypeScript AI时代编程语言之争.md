@@ -165,5 +165,5 @@ Python 绝对优势区          Python/TS 交叉区          TypeScript 优势�
 ## 🔗 关联笔记
 
 - [[领域/Claude Code记忆系统与Agent记忆架构.md]] — Agent 记忆系统设计
-- [[Clippings/GitHub/2026-07-04-GitHub高星项目速览.md]] — 相关高星项目
-- [[Clippings/GitHub/2026-07-06-last30days-skill用Skill学习AI新知识.md]] — 调研工具说明
+- [[2026-07-28-GitHub高星项目速览]] — 相关高星项目
+- [[2026-07-06-last30days-skill用Skill学习AI新知识]] — 调研工具说明

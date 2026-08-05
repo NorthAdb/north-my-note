@@ -34,17 +34,17 @@ source:
 
 ### 技术栈
 
-| 层级 | 技术 |
-|------|------|
-| 后端框架 | Java 17, Spring Boot 3.4.5 |
-| AI 框架 | Spring AI 1.0.0-M6（OpenAI 兼容协议） |
-| ORM | MyBatis-Plus 3.5.9 |
-| 数据库 | MySQL 8.0 |
-| 向量数据库 | ChromaDB |
-| 文档解析 | Apache PDFBox 3.0.3 |
-| API 文档 | SpringDoc OpenAPI 2.7.0 |
-| 前端框架 | Vue 3, Vite, Element Plus |
-| 容器化 | Docker Compose（一键部署） |
+| 层级        | 技术                                      |
+| --------- | --------------------------------------- |
+| 后端框架      | Java 17, Spring Boot 3.4.5              |
+| AI 框架     | Spring AI 1.0.0-M6（OpenAI 兼容协议）         |
+| ORM       | MyBatis-Plus 3.5.9                      |
+| 数据库       | MySQL 8.0                               |
+| 向量数据库     | ChromaDB                                |
+| 文档解析      | Apache PDFBox 3.0.3                     |
+| API 文档    | SpringDoc OpenAPI 2.7.0                 |
+| 前端框架      | Vue 3, Vite, Element Plus               |
+| 容器化       | Docker Compose（一键部署）                    |
 | Python 微调 | Python 3.10, FastAPI, transformers/peft |
 
 ### 功能模块
