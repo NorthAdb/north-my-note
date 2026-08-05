@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/GitHub/2026-07-04-大学四年比课本有用的GitHub仓库.md",
+                "file": "doc-pqsectunnel/流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-04-大学四年比课本有用的GitHub仓库"
+              "title": "流程"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Clippings/Bilibili/2026-07-04-我的B站AI收藏清单.md",
+            "file": "doc-pqsectunnel/流程.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -171,6 +171,27 @@
   },
   "active": "b2cb070bd2a90be9",
   "lastOpenFiles": [
+    "doc-pqsectunnel/defense/00a-WireGuard背景与对比.md",
+    "doc-pqsectunnel/流程.md",
+    "doc-pqsectunnel/defense/02-协议总览.md",
+    "领域/Claude Code - Command与Skill区别.md",
+    "领域/AI_Agent_智能体学习路线_2026.pdf",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（四）面向对象高级篇.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（六）集合类与IO.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（八）GUI程序开发.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（五）泛型程序设计.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（二）面向过程编程.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（三）面向对象基础.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（七）多线程与反射.md",
+    "项目/Javase/JavaSE 核心内容 - JavaSE 笔记（一）走进Java语言.md",
+    "项目/Javase/JavaSE 学习清单.md",
+    "项目/Javase",
+    "doc-pqsectunnel/defense/aigis-enc 原生集成实施计划.md",
+    "Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目.md",
+    "Clippings/小黑盒",
+    "Clippings/Bilibili/第一次用Obsidian？先把这8个插件装好再说.md",
+    "领域/AI Agent 智能体学习路线 2026.md",
+    "doc-pqsectunnel/defense/00-答辩索引.md",
     "Clippings/GitHub/2026-07-04-Pake一键将网页转为桌面客户端.md",
     "Clippings/GitHub/2026-07-06-last30days-skill用Skill学习AI新知识.md",
     "领域/Claude Code记忆系统与Agent记忆架构.md",
