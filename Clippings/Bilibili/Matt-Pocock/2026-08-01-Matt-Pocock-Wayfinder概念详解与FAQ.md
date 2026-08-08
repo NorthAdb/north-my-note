@@ -134,7 +134,6 @@ Wayfinder map → toSpec → toTickets → 实现 → code review   （新，跨
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1VoGK6kEQj`（234 段逐句带时间轴）
-- 字幕全文：`原始材料/BV1VoGK6kEQj_archive/subtitles/`
 
 ## 来源、覆盖与局限
 
@@ -147,5 +146,5 @@ Wayfinder map → toSpec → toTickets → 实现 → code review   （新，跨
 ## 关联笔记
 
 - [[2026-07-31-Matt-Pocock直播-Wayfinder从想法到spec全流程]] — Wayfinder **直播实战演示**（理念 vs 实操，两篇互补）
-- [[2026-07-31-Matt-Pocock直播-从零搭建项目-SlopWatch]] — GrillMe + DDD 方法论（Wayfinder 前身）
+- [[Matt-Pocock/2026-07-31-Matt-Pocock直播-SlopWatch从零搭建完整实录]] — GrillMe + DDD 方法论（Wayfinder 前身）
 - [[Matt-Pocock-Skills仓库全量分类汇总未命名]] — Matt Pocock skills 仓库全景

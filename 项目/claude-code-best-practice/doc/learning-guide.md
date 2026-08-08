@@ -877,16 +877,16 @@ Power Ups 是 Claude Code v2.1.90 引入的 **10 个交互式教程**，通过 `
 目的：按 doc/practice/ 的编号顺序，逐个理解每个概念
 ```
 
-| 步骤 | 主题 | 读最佳实践（中文） | 看实现说明（中文） | 看项目文件 |
-|------|------|-------------------|-------------------|-----------|
-| 1 | 子代理 | `doc/practice/02-子代理-subagents.md` | `doc/implementation/01-subagent-实现.md` | `.claude/agents/weather-agent.md` |
-| 2 | 命令 | `doc/practice/03-命令-commands.md` | `doc/implementation/02-command-实现.md` | `.claude/commands/weather-orchestrator.md` |
-| 3 | 技能 | `doc/practice/04-技能-skills.md` | `doc/implementation/03-skill-实现.md` | `.claude/skills/weather-fetcher/SKILL.md` |
-| 4 | 设置 | `doc/practice/05-设置-settings.md` | — | `.claude/settings.json` |
-| 5 | MCP | `doc/practice/06-MCP服务器-mcp.md` | — | `.claude/mcp.json` |
-| 6 | 记忆 | `doc/practice/07-记忆系统-memory.md` | — | `~/.claude/projects/*/memory/` |
-| 7 | CLI 参数 | `doc/practice/08-CLI启动参数-cli-startup-flags.md` | — | 命令行运行 `claude --help` |
-| 8 | 能力强化 | `doc/practice/09-能力强化-power-ups.md` | — | 运行 `/powerup` |
+| 步骤  | 主题     | 读最佳实践（中文）                                      | 看实现说明（中文）                              | 看项目文件                                      |
+| --- | ------ | ---------------------------------------------- | -------------------------------------- | ------------------------------------------ |
+| 1   | 子代理    | `doc/practice/02-子代理-subagents.md`             | `doc/implementation/01-subagent-实现.md` | `.claude/agents/weather-agent.md`          |
+| 2   | 命令     | `doc/practice/03-命令-commands.md`               | `doc/implementation/02-command-实现.md`  | `.claude/commands/weather-orchestrator.md` |
+| 3   | 技能     | `doc/practice/04-技能-skills.md`                 | `doc/implementation/03-skill-实现.md`    | `.claude/skills/weather-fetcher/SKILL.md`  |
+| 4   | 设置     | `doc/practice/05-设置-settings.md`               | —                                      | `.claude/settings.json`                    |
+| 5   | MCP    | `doc/practice/06-MCP服务器-mcp.md`                | —                                      | `.claude/mcp.json`                         |
+| 6   | 记忆     | `doc/practice/07-记忆系统-memory.md`               | —                                      | `~/.claude/projects/*/memory/`             |
+| 7   | CLI 参数 | `doc/practice/08-CLI启动参数-cli-startup-flags.md` | —                                      | 命令行运行 `claude --help`                      |
+| 8   | 能力强化   | `doc/practice/09-能力强化-power-ups.md`            | —                                      | 运行 `/powerup`                              |
 
 ### 🔴 第三阶段：实操体验（第 6-7 天）
 
@@ -894,14 +894,14 @@ Power Ups 是 Claude Code v2.1.90 引入的 **10 个交互式教程**，通过 `
 目的：亲手操作，跑通完整流程
 ```
 
-| 步骤 | 做什么 |
-|------|--------|
-| 1 | 跑 `/time-skill` 或 `/time-command` 看效果 |
-| 2 | 跑 `/weather-orchestrator` 看完整编排流程 |
-| 3 | 读编排工作流说明（中文） | `doc/orchestration-workflow/编排工作流.md` |
-| 4 | 跑 `/grill-me` 体验追问模式 |
-| 5 | 一口气读完三个 implementation 文档 | `doc/implementation/01`、`02`、`03` |
-| 6 | 读 Workflow 重构历程（中文） | `doc/reports/Weather工作流重构历程.md` |
+| 步骤  | 做什么                                   |                                       |
+| --- | ------------------------------------- | ------------------------------------- |
+| 1   | 跑 `/time-skill` 或 `/time-command` 看效果 |                                       |
+| 2   | 跑 `/weather-orchestrator` 看完整编排流程     |                                       |
+| 3   | 读编排工作流说明（中文）                          | `doc/orchestration-workflow/编排工作流.md` |
+| 4   | 跑 `/grill-me` 体验追问模式                  |                                       |
+| 5   | 一口气读完三个 implementation 文档             | `doc/implementation/01`、`02`、`03`     |
+| 6   | 读 Workflow 重构历程（中文）                   | `doc/reports/Weather工作流重构历程.md`       |
 
 ### 🟣 第四阶段：深入进阶（第 2 周+）
 
@@ -909,15 +909,15 @@ Power Ups 是 Claude Code v2.1.90 引入的 **10 个交互式教程**，通过 `
 目的：理解高级模式，开始自己创造
 ```
 
-| 步骤 | 做什么 | 参考文件（中文优先） |
-|------|--------|-------------------|
-| 1 | 理解全局 vs 项目设置 | `doc/reports/全局vs项目设置对比.md` |
-| 2 | 理解子代理记忆 | `doc/reports/子代理记忆系统.md` |
-| 3 | 研究 Hook 系统 | `.claude/hooks/config/hooks-config.json` |
-| 4 | 读高级工具模式 | `doc/reports/高级工具使用模式.md` |
-| 5 | 读 Harness 重要性 | `doc/reports/为什么Harness如此重要.md` |
-| 6 | 读深度对比报告 | `doc/reports/Agent-vs-Command-vs-Skill.md` |
-| 7 | 读浏览器 MCP 对比 | `doc/reports/浏览器自动化MCP对比.md` |
+| 步骤  | 做什么           | 参考文件（中文优先）                                 |
+| --- | ------------- | ------------------------------------------ |
+| 1   | 理解全局 vs 项目设置  | `doc/reports/全局vs项目设置对比.md`                |
+| 2   | 理解子代理记忆       | `doc/reports/子代理记忆系统.md`                   |
+| 3   | 研究 Hook 系统    | `.claude/hooks/config/hooks-config.json`   |
+| 4   | 读高级工具模式       | `doc/reports/高级工具使用模式.md`                  |
+| 5   | 读 Harness 重要性 | `doc/reports/为什么Harness如此重要.md`            |
+| 6   | 读深度对比报告       | `doc/reports/Agent-vs-Command-vs-Skill.md` |
+| 7   | 读浏览器 MCP 对比   | `doc/reports/浏览器自动化MCP对比.md`               |
 
 ### ⭐ 第五阶段：融会贯通（第 3 周+）
 
@@ -925,15 +925,15 @@ Power Ups 是 Claude Code v2.1.90 引入的 **10 个交互式教程**，通过 `
 目的：按照自己的需求定制 Claude Code
 ```
 
-| 项目 | 参考什么 |
-|------|---------|
-| 编写自己的 Skill | 参考 `doc/practice/04-技能-skills.md` + `tdd`/`code-review` 的 SKILL.md |
-| 编写自己的 Command | 参考 `doc/practice/03-命令-commands.md` + `weather-orchestrator.md` |
-| 编写自己的 Agent | 参考 `doc/practice/02-子代理-subagents.md` + `weather-agent.md` |
-| 搭建 MCP 服务器 | 参考 `doc/practice/06-MCP服务器-mcp.md` + `.claude/mcp.json` |
-| 创建 Workflow 自动化 | 参考 `doc/orchestration-workflow/编排工作流.md` |
-| 管理社区 Skills | 用 `npx skills add <repo>` 安装社区技能 |
-| 文档规范 | 参考 `doc/rules/Markdown文档规范.md` |
+| 项目              | 参考什么                                                               |
+| --------------- | ------------------------------------------------------------------ |
+| 编写自己的 Skill     | 参考 `doc/practice/04-技能-skills.md` + `tdd`/`code-review` 的 SKILL.md |
+| 编写自己的 Command   | 参考 `doc/practice/03-命令-commands.md` + `weather-orchestrator.md`    |
+| 编写自己的 Agent     | 参考 `doc/practice/02-子代理-subagents.md` + `weather-agent.md`         |
+| 搭建 MCP 服务器      | 参考 `doc/practice/06-MCP服务器-mcp.md` + `.claude/mcp.json`            |
+| 创建 Workflow 自动化 | 参考 `doc/orchestration-workflow/编排工作流.md`                           |
+| 管理社区 Skills     | 用 `npx skills add <repo>` 安装社区技能                                   |
+| 文档规范            | 参考 `doc/rules/Markdown文档规范.md`                                     |
 
 ---
 

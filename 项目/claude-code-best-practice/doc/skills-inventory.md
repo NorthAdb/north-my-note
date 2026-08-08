@@ -172,18 +172,18 @@
 
 Slash commands 定义，可通过 `/command-name` 调用。
 
-| Command | 功能说明 |
-|---------|----------|
-| **`/weather-orchestrator`** | 获取迪拜天气并创建 SVG 天气卡片（使用模型：haiku）— 完整的 Command → Agent → Skill 架构示例 |
-| **`/time-command`** | 显示巴基斯坦标准时间（PKT, UTC+5） |
-| **`/agent-collections`** | 通过并行研究所有 agent-collection 仓库来更新 AGENT COLLECTIONS 表格 |
-| **`/skill-collections`** | 通过并行研究所有 5 个 skill-collection 仓库来更新 SKILL COLLECTIONS 表格 |
-| **`/development-workflows`** | 通过并行研究所有 11 个 workflow 仓库来更新 DEVELOPMENT WORKFLOWS 表格 |
-| **`/workflow-claude-commands`** | 跟踪 Claude Code commands report 变更并找出需要更新的内容 |
-| **`/workflow-claude-settings`** | 跟踪 Claude Code settings report 变更并找出需要更新的内容 |
-| **`/workflow-claude-skills`** | 跟踪 Claude Code skills report 变更并找出需要更新的内容 |
-| **`/workflow-claude-subagents`** | 跟踪 Claude Code subagents report 变更并找出需要更新的内容 |
-| **`/workflow-concepts`** | 根据最新的 Claude Code 特性和概念更新 README CONCEPTS 部分 |
+| Command                          | 功能说明                                                             |
+| -------------------------------- | ---------------------------------------------------------------- |
+| **`/weather-orchestrator`**      | 获取迪拜天气并创建 SVG 天气卡片（使用模型：haiku）— 完整的 Command → Agent → Skill 架构示例 |
+| **`/time-command`**              | 显示巴基斯坦标准时间（PKT, UTC+5）                                           |
+| **`/agent-collections`**         | 通过并行研究所有 agent-collection 仓库来更新 AGENT COLLECTIONS 表格             |
+| **`/skill-collections`**         | 通过并行研究所有 5 个 skill-collection 仓库来更新 SKILL COLLECTIONS 表格         |
+| **`/development-workflows`**     | 通过并行研究所有 11 个 workflow 仓库来更新 DEVELOPMENT WORKFLOWS 表格            |
+| **`/workflow-claude-commands`**  | 跟踪 Claude Code commands report 变更并找出需要更新的内容                      |
+| **`/workflow-claude-settings`**  | 跟踪 Claude Code settings report 变更并找出需要更新的内容                      |
+| **`/workflow-claude-skills`**    | 跟踪 Claude Code skills report 变更并找出需要更新的内容                        |
+| **`/workflow-claude-subagents`** | 跟踪 Claude Code subagents report 变更并找出需要更新的内容                     |
+| **`/workflow-concepts`**         | 根据最新的 Claude Code 特性和概念更新 README CONCEPTS 部分                     |
 
 ---
 

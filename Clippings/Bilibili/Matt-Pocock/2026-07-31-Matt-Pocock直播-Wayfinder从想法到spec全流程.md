@@ -187,7 +187,6 @@ Matt 的核心框架：
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1q5KU6UEpW`（777 段逐句带时间轴）
-- 字幕全文：`原始材料/BV1q5KU6UEpW_archive/subtitles/`
 
 ## 来源、覆盖与局限
 
@@ -200,6 +199,6 @@ Matt 的核心框架：
 ## 关联笔记
 
 - [[2026-08-01-Matt-Pocock-Wayfinder概念详解与FAQ]] — Wayfinder **概念讲解 + FAQ**（本篇是直播实战演示，两篇互补）
-- [[2026-07-31-Matt-Pocock直播-从零搭建项目-SlopWatch]] — Matt 的另一场直播，讲了 GrillMe + DDD 方法论（Wayfinder 的前身）
+- [[Matt-Pocock/2026-07-31-Matt-Pocock直播-SlopWatch从零搭建完整实录]] — Matt 的另一场直播，讲了 GrillMe + DDD 方法论（Wayfinder 的前身）
 - [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — Agent 架构知识地图
 - [[2026-07-31-Agent系统架构设计-Harness-Loop-Graph怎么选]] — Harness 概念深入版（与「Agent=Model+Harness+环境」呼应）

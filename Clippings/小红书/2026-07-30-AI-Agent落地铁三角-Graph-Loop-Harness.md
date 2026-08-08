@@ -149,6 +149,8 @@ Agent 系统 =
 ---
 
 ## 关联笔记
+- [[2026-07-31-Agent系统架构设计-Harness-Loop-Graph怎么选]] — 同主题视频深度版（互链）
+- [[2026-08-04-从Context到Graph-Agent工程的四个层次-Qoder]] — 工程演进视角
 
 - [[2026-07-30-Agent架构Skill和Tool本质区别-动画详解]] — Skill vs Tool，架构层面的另一个拆解
 - [[2026-07-28-Claude-Code工程化六件套详解-小林coding]] — Hooks 就是 Harness 在 Claude Code 里的具体实现

@@ -553,6 +553,10 @@ Stage 7-9 高级应用 + 部署                  4-6 周
 ---
 
 ## 🔗 关联笔记
+- [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — 8 种主流 Agent 架构详解（架构知识地图）
+- [[2026-07-31-28届个人Java+Agent学习路线-小红书]] — 实战向路线（Agent 项目 7 设计点）
+- [[Clippings/书籍/AI-Agents-in-Depth-zh-CN.md]] — 李博杰《深入理解 AI Agent》开源书全文（深度参考）
+- [[领域/2026暑假手账]] — 假期学习总结与全库导航
 
 - [[领域/Claude Code记忆系统与Agent记忆架构.md]] — Agent 记忆系统详解
 - [[领域/Python vs TypeScript AI时代编程语言之争.md]] — 开发语言选择参考

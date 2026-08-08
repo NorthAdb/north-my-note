@@ -166,7 +166,6 @@ implement 脚本自带 code review，基于**两个维度**：
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1SmNE6DE8v`（302 段逐句带时间轴）
-- 字幕全文：`原始材料/BV1SmNE6DE8v_archive/subtitles/`
 
 ## 来源、覆盖与局限
 
@@ -181,4 +180,4 @@ implement 脚本自带 code review，基于**两个维度**：
 
 - [[2026-07-31-Matt-Pocock直播-Wayfinder从想法到spec全流程]] — Wayfinder 解决 spec 之前的探索阶段（本篇主流流程的前置）
 - [[2026-07-31-Matt-Pocock实战-从原型到spec-driven开发]] — prototype skill 与保真度
-- [[2026-07-31-Matt-Pocock直播-从零搭建项目-SlopWatch]] — Matt 的 GrillMe + DDD 方法论
+- [[Matt-Pocock/2026-07-31-Matt-Pocock直播-SlopWatch从零搭建完整实录]] — Matt 的 GrillMe + DDD 方法论

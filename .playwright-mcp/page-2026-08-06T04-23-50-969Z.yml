@@ -1,0 +1,184 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - heading "面试官：“你了解过哪些 AI Agent 开发框架？”，我笑了：“LangChain、LangGraph、LlamaIndex、CrewAI、AutoGen 都用过”" [level=1] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]: 原创
+        - generic [ref=e10]: 小林哥
+        - button "小林面试笔记" [ref=e12] [cursor=pointer]
+        - generic:
+          - emphasis [ref=e13]: 2026年8月6日 11:42
+          - emphasis [ref=e14]: 广东
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: 👔面试官：你了解过哪些 AI Agent 开发框架？
+        - paragraph [ref=e18]: 🙋‍♂️我：了解过 LangChain、LangGraph、LlamaIndex、CrewAI、AutoGen……反正都是封装大模型和工具调用的，用哪个都差不多。
+        - paragraph [ref=e19]: 👔面试官：只会报名字不算了解。它们解决的问题、抽象层次和适用场景都不同，怎么会差不多？
+        - paragraph [ref=e20]: 🙋‍♂️我：那 LangChain 生态最大，所有项目都使用 LangChain，复杂流程多写几个 Chain 就行。
+        - paragraph [ref=e21]: 👔面试官：复杂的有状态流程还只想到 Chain？LangGraph 为什么会出现？LlamaIndex 又为什么长期强调数据和上下文增强？
+        - paragraph [ref=e22]: 🙋‍♂️我：那我多背几个框架名称和 GitHub Star，面试时全部说一遍，应该就显得了解得比较全面。
+        - paragraph [ref=e23]: 👔面试官：框架名称说得多，不等于理解得深。你应该围绕项目难点说明为什么选，而不是拿热度和名词数量代替技术判断。
+        - paragraph [ref=e24]: 发现没有，这道题看似在考你知道多少框架，其实面试官更想听到的是：你是否真正理解主流框架的定位，能不能根据业务问题完成技术选型。
+        - heading "💡 简要回答" [level=2] [ref=e25]
+        - paragraph [ref=e27]: 我重点了解过 LangChain、LangGraph 和 LlamaIndex。
+        - paragraph [ref=e28]: LangChain 提供模型、Prompt、工具、Agent 和中间件等通用抽象，集成范围比较广，适合快速构建工具调用、RAG、SQL 查询等 AI 应用。
+        - paragraph [ref=e29]: LangGraph 更偏底层的状态与流程编排。面对循环、分支、并行、断点恢复和人工审批等复杂流程时，可以使用图结构显式控制 Agent 的执行路径。现在 LangChain 的 Agent 也运行在 LangGraph 之上，因此二者更多是上下层关系，而不是互相替代的竞争关系。
+        - paragraph [ref=e30]: LlamaIndex 的优势集中在数据接入、文档解析、索引和检索，适合企业知识库、文档问答和复杂 RAG 等数据密集型应用。
+        - paragraph [ref=e31]: 除此之外，我也了解 OpenAI Agents SDK 和 CrewAI。前者适合以 OpenAI 模型为主的轻量 Agent，后者擅长使用角色和任务表达多 Agent 协作。不过在通用 Python Agent 开发岗位中，我会优先掌握 LangChain、LangGraph 和 LlamaIndex，再根据公司的技术栈补充其他框架。
+        - heading "📝 详细解析" [level=2] [ref=e32]
+        - heading "Agent 框架解决了什么？" [level=3] [ref=e34]
+        - paragraph [ref=e36]: 假设不用任何框架，自己实现一个能查询资料、调用接口并记住上下文的 Agent，需要做多少事情？
+        - paragraph [ref=e37]: 你需要接入模型、定义工具协议、实现 Agent 循环，并把工具结果重新交给模型。此外，还要处理状态、重试、超时、流式输出、人工确认和运行追踪。完成一次演示并不难，真正困难的是系统执行十几步后能否恢复，以及出错时能否快速定位问题。
+        - paragraph [ref=e38]: Agent 框架会把这些重复工程抽象成可复用组件。不过，不同框架选择的重点并不相同：LangChain 偏通用组件和快速集成，LangGraph 偏状态与流程控制，LlamaIndex 偏数据与检索。
+        - figure [ref=e39]:
+          - img "图片" [ref=e41]
+        - paragraph [ref=e42]: 所以，回答这道题时不要只比较谁更强，而要说清楚在什么业务约束下，哪个框架更合适。
+        - heading "为什么重点看 LangChain？" [level=3] [ref=e43]
+        - paragraph [ref=e45]: LangChain 的定位已经不只是早期的「把多个 Prompt 串成 Chain」。它提供模型、消息、Prompt、工具、结构化输出、中间件和 Agent 等通用抽象，并集成了大量模型供应商、向量数据库和外部工具。
+        - paragraph [ref=e46]: 它最大的价值是集成范围广、开发速度快。例如，我们需要切换不同模型，接入搜索、数据库或 MCP 工具，快速实现 RAG Agent、SQL Agent 或客服助手时，LangChain 可以减少大量协议适配和样板代码。
+        - paragraph [ref=e47]: 不过，LangChain 的高层抽象更适合常见 Agent 模式。当业务出现复杂循环、精细分支、长时间暂停和断点恢复时，就需要进一步使用 LangGraph 控制执行流程。
+        - heading "LangGraph 和 LangChain 是什么关系？" [level=3] [ref=e48]
+        - paragraph [ref=e50]:
+          - text: LangGraph 使用
+          - code [ref=e51]: State + Node + Edge
+          - text: 表达 Agent 工作流：State 保存共享状态，Node 负责执行模型或工具，Edge 决定下一步运行哪个节点。
+        - paragraph [ref=e52]: 它重点解决的是循环、条件分支、并行执行、持久化、暂停恢复和人工介入等问题。
+        - paragraph [ref=e53]: 例如，一个报销 Agent 必须先读取单据，再进行合规检查；金额超过限制时暂停并等待主管审批；审批通过后才能调用付款工具。这类流程使用图结构表达，会比把所有逻辑塞进一个 Agent 循环更加清晰。
+        - paragraph [ref=e54]: 现在 LangChain 的 Agent 高层接口运行在 LangGraph 之上。可以把 LangChain 理解为常用组件和预制路线，把 LangGraph 理解为支撑这些路线的道路系统：简单 Agent 优先使用 LangChain；需要精细控制时，再下沉到 LangGraph。
+        - figure [ref=e55]:
+          - img "图片" [ref=e57]
+        - paragraph [ref=e58]: 因此，面试时不要把 LangChain 和 LangGraph 简单说成两个互相替代的框架。二者既有职责差异，也经常组合使用。
+        - heading "LlamaIndex 强在哪里？" [level=3] [ref=e59]
+        - paragraph [ref=e61]: 很多人把 LlamaIndex 简单理解成「另一个 LangChain」，这会忽略它最有辨识度的能力。
+        - paragraph [ref=e62]: LlamaIndex 更强调在私有数据之上构建 AI 应用。它长期积累了数据连接、文档解析、切分、索引、检索、重排、Query Engine 和结构化数据访问等能力，也可以把 RAG Pipeline 封装为 Agent 使用的工具。
+        - paragraph [ref=e63]: 当需求是让 Agent 查询企业知识库时，真正困难的往往不是实现工具调用循环。资料进入系统时，PDF 表格要正确解析，多种数据源要统一接入，文档还要切分并建立索引。
+        - paragraph [ref=e64]: 用户开始提问后，系统又要过滤和重排召回结果，并确保不同用户只能看到自己有权访问的数据。可以发现，问题是沿着整条数据链路逐步出现的，而不是多注册一个搜索工具就能解决。
+        - paragraph [ref=e65]: 这些问题正是 LlamaIndex 更擅长的方向。因此，它尤其适合企业知识库、文档 Agent、研究助手和复杂 RAG 系统。
+        - figure [ref=e66]:
+          - img "图片" [ref=e68]
+        - paragraph [ref=e69]: LlamaIndex 也提供 Agent、Memory、多 Agent Pattern 和 Workflow，所以它并不只是 RAG 工具。不过从选型角度看，LangChain 的入口更偏通用 Agent 组装，LlamaIndex 的优势更集中在数据密集型应用。
+        - heading "三个框架怎么配合？" [level=3] [ref=e70]
+        - paragraph [ref=e72]: LangChain、LangGraph 和 LlamaIndex 并不一定三选一。一个企业知识库 Agent 可以先用 LlamaIndex 处理文档、建立索引并提供检索结果，再把这项检索能力包装成 Tool，交给 LangChain Agent 决定何时调用。
+        - paragraph [ref=e73]: 如果外围还存在查询改写、答案校验、人工审核和失败恢复，就让 LangGraph 负责这些步骤如何衔接。这样三者分别解决数据、Agent 组装和流程控制问题，而不是在同一层重复造轮子。
+        - figure [ref=e74]:
+          - img "图片" [ref=e76]
+        - paragraph [ref=e77]: 是否需要同时引入三者，取决于项目复杂度。如果只是简单工具调用，不必为了技术栈完整而引入 LlamaIndex；如果只是普通知识库问答，也不一定需要复杂的 LangGraph 工作流。
+        - heading "其他框架要了解吗？" [level=3] [ref=e78]
+        - paragraph [ref=e80]: 除了上面三个框架，还可以简单了解 OpenAI Agents SDK 和 CrewAI，但不必在通用 Python Agent 面试中平均分配准备时间。
+        - paragraph [ref=e81]:
+          - strong [ref=e82]: OpenAI Agents SDK
+          - text: 围绕 Agent、Runner、Tools、Handoffs、Guardrails、Sessions 和 Tracing 提供一套相对轻量的开发方式。它适合以 OpenAI 模型和接口为主，希望快速实现客服分流、语音助手或工具 Agent 的团队。
+        - paragraph [ref=e83]:
+          - strong [ref=e84]: CrewAI
+          - text: 使用角色、目标、任务和团队表达多 Agent 协作，并通过 Flow 管理状态、条件和事件。它适合研究报告、内容生产和多角色审核等容易映射为团队分工的场景，但角色越多也意味着更高的调用成本和协作不确定性。
+        - figure [ref=e85]:
+          - img "图片" [ref=e87]
+        - paragraph [ref=e88]: AutoGen、Semantic Kernel 和 Microsoft Agent Framework 更偏微软生态或存量项目。对于通用 Python Agent 岗位，可以知道它们的定位，不需要在这道题中详细展开。Dify 则更接近低代码 AI 应用开发平台，也不宜和 Python Agent 框架放在同一层面重点比较。
+        - heading "到底该怎么选？" [level=3] [ref=e89]
+        - paragraph [ref=e91]: 选框架前，先别急着比较功能数量，而要把问题从外到内收窄。
+        - paragraph [ref=e92]:
+          - text: 最外层先判断任务是否真的需要 Agent。如果步骤固定、规则明确，普通函数或工作流通常更便宜、更稳定。把本来能写成
+          - code [ref=e93]: if/else
+          - text: 的流程交给模型自由决定，只会平白增加不确定性。
+        - paragraph [ref=e94]: 确认需要 Agent 后，再找项目真正困难的那一层。模型和工具接入最费力，LangChain 更自然；难点集中在私有数据、文档解析和检索质量，LlamaIndex 更贴近问题；业务路径包含复杂分支、循环和状态恢复，才轮到 LangGraph 发挥优势。
+        - paragraph [ref=e95]: 这时还不能马上结束选型，因为 Demo 能跑和系统能上线是两回事。流程越长，越要继续追问：中断后能否恢复，敏感动作是否需要审批，重复执行会不会产生副作用，不同用户的数据能否隔离，出错后是否留有完整轨迹。真正决定框架是否合适的，往往正是这些原型阶段看不见的生产约束。
+        - table [ref=e97]:
+          - rowgroup [ref=e98]:
+            - row [ref=e99]:
+              - columnheader "框架" [ref=e100]
+              - columnheader "核心定位" [ref=e102]
+              - columnheader "更适合的场景" [ref=e104]
+              - columnheader "掌握程度" [ref=e106]
+          - rowgroup [ref=e108]:
+            - row [ref=e109]:
+              - cell "LangChain" [ref=e110]
+              - cell "通用模型、工具和 Agent 抽象" [ref=e112]
+              - cell "工具型 Agent、RAG Agent、SQL Agent" [ref=e114]
+              - cell "重点掌握" [ref=e116]
+            - row [ref=e118]:
+              - cell "LangGraph" [ref=e119]
+              - cell "有状态的图式流程编排" [ref=e121]
+              - cell "循环分支、暂停恢复、人工审批" [ref=e123]
+              - cell "重点掌握" [ref=e125]
+            - row [ref=e127]:
+              - cell "LlamaIndex" [ref=e128]
+              - cell "数据接入、索引和检索" [ref=e130]
+              - cell "企业知识库、文档 Agent、复杂 RAG" [ref=e132]
+              - cell "重点掌握" [ref=e134]
+            - row [ref=e136]:
+              - cell "OpenAI Agents SDK" [ref=e137]
+              - cell "OpenAI 技术栈下的轻量 Agent SDK" [ref=e139]
+              - cell "客服分流、语音助手、工具 Agent" [ref=e141]
+              - cell "了解并按需深入" [ref=e143]
+            - row [ref=e145]:
+              - cell "CrewAI" [ref=e146]
+              - cell "角色化多 Agent 协作" [ref=e148]
+              - cell "研究、内容生产、多角色审核" [ref=e150]
+              - cell "了解并按需深入" [ref=e152]
+        - heading "🎯 面试总结" [level=2] [ref=e154]
+        - paragraph [ref=e156]: 面试时，不需要一口气罗列十几个框架。框架说得越多，面试官越可能继续追问，而没有实际使用经验的框架很容易暴露出只是听过名字。
+        - paragraph [ref=e157]: 更稳妥的回答方式是围绕 LangChain、LangGraph 和 LlamaIndex 展开：LangChain 偏通用组件与快速集成，LangGraph 偏有状态流程编排，LlamaIndex 偏数据接入与检索。然后再补充自己对 OpenAI Agents SDK、CrewAI 等框架有所了解。
+        - paragraph [ref=e158]: 最后，一定要把框架特点落到真实场景：简单 Agent 为什么选择 LangChain，复杂审批流程为什么使用 LangGraph，企业知识库为什么考虑 LlamaIndex。能讲清楚「什么场景为什么选」，比单纯记住框架名称更有说服力。
+        - paragraph [ref=e159]: "-----"
+        - generic [ref=e160]:
+          - paragraph [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: 💪
+              - text: 面试突击资源推荐：
+          - paragraph [ref=e164]:
+            - generic [ref=e165]:
+              - text: ✅
+              - generic [ref=e166]:
+                - text: 大模型面试题：
+                - link "xiaolinnote.com" [ref=e167]:
+                  - /url: https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247556672&idx=2&sn=d2d463bb4484b1826a697f346f9f99aa&scene=21#wechat_redirect
+          - paragraph [ref=e168]:
+            - generic [ref=e169]:
+              - text: ✅后端+AI私教：
+              - link "后端+AI社招私教辅导" [ref=e171]:
+                - /url: https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247557459&idx=2&sn=797991dca990a01a362c0872cf448868&scene=21#wechat_redirect
+          - generic [ref=e172]:
+            - text: ✅Agent训练营：
+            - link "转行去做Agent开发了" [ref=e174]:
+              - /url: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247484960&idx=1&sn=958f05e80bdbd20d54555eac04bb2561&scene=21#wechat_redirect
+        - generic [ref=e177]:
+          - text: ✅AI全栈私教：
+          - link "AI全栈开发1v1私教辅导" [ref=e178]:
+            - /url: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247485235&idx=1&sn=c3b32316862ec3863af29e4dc904fabf&scene=21#wechat_redirect
+        - generic [ref=e180]:
+          - text: ✅AI
+          - generic [ref=e181]:
+            - text: 项目：
+            - link "智能OnCall Agent项目" [ref=e182]:
+              - /url: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247485107&idx=1&sn=1ddb9cd9bdb70d7b556e0cafd6e0e4ba&scene=21#wechat_redirect
+        - generic [ref=e184]:
+          - text: ✅AI
+          - generic [ref=e188]:
+            - generic [ref=e189]: 项目：
+            - link "MewCode Agent项目" [ref=e191]:
+              - /url: https://mp.weixin.qq.com/s?__biz=MzY4NTE2NjU5MQ==&mid=2247485158&idx=1&sn=3a24cc6fa57c1951266390743f50756a&scene=21#wechat_redirect
+        - link "小林面试笔记 ， 专注图解Agent+RAG+LLM面试题｜笔记网站：xiaolinnote.com 78篇原创内容 公众号" [ref=e195]:
+          - option [ref=e196]:
+            - generic [ref=e201]:
+              - strong [ref=e203]: 小林面试笔记
+              - generic [ref=e205]: 专注图解Agent+RAG+LLM面试题｜笔记网站：xiaolinnote.com
+              - generic [ref=e206]: 78篇原创内容
+            - generic [ref=e209]: 公众号
+    - generic [ref=e211]:
+      - generic [ref=e213]:
+        - button [ref=e214]
+        - button "上一篇 · 面试官冷笑：“什么是 Scaling Law？大模型的「涌现能力」是怎么回事？”，我：“就是模型越大越好嘛，参数越多效果越强”" [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222]: 上一篇
+            - generic [ref=e223]:
+              - text: ·
+              - generic [ref=e224]: 面试官冷笑：“什么是 Scaling Law？大模型的「涌现能力」是怎么回事？”，我：“就是模型越大越好嘛，参数越多效果越强”
+      - button "阅读原文" [ref=e228] [cursor=pointer]
+  - generic [ref=e233]:
+    - link "小林面试笔记" [ref=e243]
+    - generic [ref=e246]:
+      - button "赞" [ref=e248]
+      - button "分享" [ref=e251]
+      - button "在看" [ref=e254]:
+        - generic [ref=e255]: 推荐
+      - button "留言 写留言" [ref=e257]:
+        - generic [ref=e258]: 写留言

@@ -113,12 +113,12 @@ paths: presentation/**/*.html
 
 **问题：** 在实际项目中，容易把两个不同的"记忆"机制混为一谈。
 
-| | **官方 Auto Memory** | **自定义 Agent Memory** |
-|---|---|---|
-| **触发方式** | 运行时**自动触发**（感觉到值得记住的事实） | Agent prompt 中**手写指令**（如 "Update your agent memory"） |
-| **存储路径** | `~/.claude/projects/<项目>/memory/` | 由 prompt 决定，常见如 `.claude/agent-memory/<agent名>/` |
-| **文件格式** | Markdown + YAML frontmatter | 自由格式 Markdown |
-| **谁控制** | Claude Code 运行时 | Agent 的定义者（写 prompt 的人） |
+|          | **官方 Auto Memory**                | **自定义 Agent Memory**                                 |
+| -------- | --------------------------------- | ---------------------------------------------------- |
+| **触发方式** | 运行时**自动触发**（感觉到值得记住的事实）           | Agent prompt 中**手写指令**（如 "Update your agent memory"） |
+| **存储路径** | `~/.claude/projects/<项目>/memory/` | 由 prompt 决定，常见如 `.claude/agent-memory/<agent名>/`     |
+| **文件格式** | Markdown + YAML frontmatter       | 自由格式 Markdown                                        |
+| **谁控制**  | Claude Code 运行时                   | Agent 的定义者（写 prompt 的人）                              |
 
 **本仓库的真实案例：**
 

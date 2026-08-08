@@ -244,7 +244,6 @@ GrillMe 问：session 怎么绑定到开发者的身份？sidecar 怎么向后�
 ## 证据与原文位置
 
 - 字幕来源：YouTube 直播字幕 `LIVE Watch me build a brand-new project from scratch.md`（用户提供）
-- 原文存档：`原始材料/BV1FENq6WEdZ_archive/subtitles/transcript/`
 
 ## 来源、覆盖与局限
 

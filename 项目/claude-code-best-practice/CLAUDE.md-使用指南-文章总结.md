@@ -146,3 +146,9 @@ paths: ["**/*.test.ts", "**/*.spec.ts"]
 - [claudeguide.io：How to Write Effective CLAUDE.md Files](https://claudeguide.io/claude-md-effective-patterns)
 - [claude-codex.fr：Mastering CLAUDE.md（6 段式结构）](https://claude-codex.fr/en/prompting/claude-md/)
 - [SFEIR Institute：The CLAUDE.md Memory System Deep Dive（实测数据来源）](https://institute.sfeir.com/en/claude-code/claude-code-memory-system-claude-md/deep-dive/)
+
+---
+
+## 🔗 关联笔记
+- [[领域/Claude Code记忆系统与Agent记忆架构]] — CLAUDE.md 五层作用域详解（互补）
+- [[领域/2026暑假手账]] — 假期总结

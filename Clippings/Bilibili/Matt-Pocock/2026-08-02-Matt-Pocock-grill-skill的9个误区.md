@@ -127,7 +127,6 @@ grill with docs 会话（蓝）
 
 - 字幕来源：yt-dlp 从 YouTube 原视频提取英文原声字幕（`youtube.en.vtt`，1228 段）
 - 原视频：https://www.youtube.com/watch?v=UzMNBN6xLLA
-- 字幕存档：`原始材料/BV1zn396mEfz_archive/subtitles/transcript/youtube.en.vtt`
 
 ## 来源、覆盖与局限
 
@@ -141,5 +140,5 @@ grill with docs 会话（蓝）
 
 - [[2026-08-01-Matt-Pocock-Wayfinder概念详解与FAQ]] — Wayfinder 是 GrillMe 的**编排器**进化版（grilling 会话的调度）
 - [[2026-07-31-Matt-Pocock直播-Wayfinder从想法到spec全流程]] — Wayfinder 直播实战演示
-- [[2026-07-31-Matt-Pocock直播-从零搭建项目-SlopWatch]] — GrillMe + DDD 方法论（Wayfinder 前身）
+- [[Matt-Pocock/2026-07-31-Matt-Pocock直播-SlopWatch从零搭建完整实录]] — GrillMe + DDD 方法论（Wayfinder 前身）
 - [[Matt-Pocock-Skills仓库全量分类汇总未命名]] — Matt Pocock skills 仓库全景

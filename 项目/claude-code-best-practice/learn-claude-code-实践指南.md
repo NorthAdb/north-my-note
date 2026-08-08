@@ -579,3 +579,11 @@ python s20_comprehensive/code.py
 > **"Agency comes from the model. The harness gives agency a place to land."**
 >
 > **"Bash is all you need. Real agents are all the universe needs."**
+
+
+---
+
+## 🔗 关联笔记
+
+- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线
+- [[领域/2026暑假手账]] — 假期总结

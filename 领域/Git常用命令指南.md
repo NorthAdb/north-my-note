@@ -7,6 +7,7 @@
 git config --list                # 查看所有配置
 git config user.name             # 查看用户名
 git config user.email            # 查看邮箱
+git config --list --show-origin  # 查看配置来源（系统/全局/本地）
 ```
 
 ### 2. 设置配置
@@ -14,6 +15,29 @@ git config user.email            # 查看邮箱
 git config --global user.name "你的用户名"      # 全局设置用户名
 git config --global user.email "你的邮箱"       # 全局设置邮箱
 git config user.name "用户名"                   # 仅当前仓库设置
+```
+
+### 3. 配置作用域（优先级从低到高）
+
+| 级别 | 配置文件路径 | 命令 |
+|------|-------------|------|
+| 系统 | `C:/Program Files/Git/etc/gitconfig` | `git config --system` |
+| 全局 | `~/.gitconfig` | `git config --global` |
+| 本地 | `.git/config` | `git config`（无参数） |
+
+### 4. 典型全局配置（Windows）
+
+```ini
+[user]
+    name = YourName
+    email = your@email.com
+[core]
+    editor = code --wait          # 默认编辑器
+    autocrlf = true               # Windows CRLF 自动转换
+[init]
+    defaultBranch = main
+[credential]
+    helper = manager              # Windows 凭据管理器
 ```
 
 ---
@@ -27,9 +51,14 @@ git init                         # 在当前目录初始化一个新的 Git 仓�
 
 ### 2. 克隆远程仓库
 ```bash
-git clone <仓库地址>              # 克隆远程仓库到本地
+git clone <仓库地址>              # 克隆远程仓库到本地（HTTPS 方式）
 git clone <仓库地址> <文件夹名>    # 克隆到指定文件夹
+
+# SSH 方式（需先配置 SSH Key）
+git clone git@github.com:用户名/仓库名.git
 ```
+
+> clone 会自动将 `origin` 设为远程仓库地址，一般无需手动指定。
 
 ---
 
@@ -223,6 +252,12 @@ git pull --rebase                # 拉取并用 rebase 方式合并：会将本�
 ```bash
 git remote set-url origin <新地址>   # 修改远程仓库地址
 git remote remove origin             # 删除远程仓库
+
+# 添加额外远程（如 forking 工作流的上游仓库）
+git remote add upstream <原作者仓库地址>
+git fetch upstream                  # 拉取上游更新
+git merge upstream/main             # 合并上游主分支
+git remote update origin --prune    # 更新远程分支列表（清理已删除的分支）
 ```
 
 ---
@@ -373,4 +408,22 @@ git <命令> -h                     # 简短帮助
 
 ---
 
+## 十五、克隆新仓库后的快速检查清单
+
+- [ ] `git remote -v` — 远程仓库地址是否正确
+- [ ] `git config user.name` / `git config user.email` — 用户信息是否合适（尤其是 fork 的项目）
+- [ ] 是否存在 `.gitignore`，是否需要补充规则（venv、node_modules、\_\_pycache\_\_、.env 等）
+- [ ] 确认分支策略：直接 main 开发，还是 feature branch + PR
+- [ ] 如果是 fork，是否要添加 `upstream` 远程仓库
+
+---
+
 > 📝 **提示**：多练习是掌握 Git 的最好方法！
+
+
+---
+
+## 🔗 关联笔记
+
+- [[领域/Java后端+Agent开发学习路线 2026]] — 后端学习路线（Git 是前置技能）
+- [[领域/2026暑假手账]] — 假期总结

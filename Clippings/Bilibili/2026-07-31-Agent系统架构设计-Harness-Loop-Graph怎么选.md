@@ -215,7 +215,6 @@ Loop 不是「让 Agent 继续做就算完成」，而是要有：
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1qZ3P6uEgs`（343 段逐句带时间轴）
-- 字幕全文：`原始材料/BV1qZ3P6uEgs_archive/subtitles/`
 
 ## 来源、覆盖与局限
 
@@ -227,6 +226,7 @@ Loop 不是「让 Agent 继续做就算完成」，而是要有：
 - ⚠️ 视频为幻灯片讲解，画面细节未通过画面分析获取
 
 ## 关联笔记
+- [[2026-08-04-从Context到Graph-Agent工程的四个层次-Qoder]] — 工程演进视角：Context→Harness→Loop→Graph
 
 - [[2026-07-30-AI-Agent落地铁三角-Graph-Loop-Harness]] — 小红书版铁三角，本视频是同一主题的工程化深度版，两篇互补
 - [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — 同一 UP 主的 8 种架构视频（Tools/ReAct/Multi-Agent 等）

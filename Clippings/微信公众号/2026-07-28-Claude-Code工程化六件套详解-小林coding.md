@@ -350,3 +350,12 @@ my-review-kit/
 - [万字长文图解 Claude Code 源码：Skill 机制](https://mp.weixin.qq.com/s/...)
 - [万字长文图解 Claude Code 源码：多Agent实现机制](https://mp.weixin.qq.com/s/...)
 - [万字长文图解 Claude Code 源码：上下文窗口管理机制](https://mp.weixin.qq.com/s/...)
+
+
+---
+
+## 🔗 关联笔记
+
+- [[领域/Claude Code记忆系统与Agent记忆架构]] — CLAUDE.md/记忆体系详解
+- [[领域/Claude Code - Command与Skill区别]] — Command 与 Skill 区别
+- [[2026-07-31-Agent系统架构设计-Harness-Loop-Graph怎么选]] — Harness 工程化视角

@@ -42,3 +42,12 @@
 新建自定义能力时，直接使用 `.claude/skills/<name>/SKILL.md` 格式即可：
 - 触发方式（手动 `/` 还是自动语义匹配）只是 frontmatter 里的配置项
 - 不再需要在"做成 command 还是 skill"之间做架构层面的选择
+
+
+---
+
+## 🔗 关联笔记
+
+- [[2026-07-21-Claude-Code-Skill机制源码剖析]] — Skill 机制源码级解析
+- [[2026-07-30-Agent架构Skill和Tool本质区别-动画详解]] — Skill vs Tool 本质区别
+- [[2026-07-28-Claude-Code工程化六件套详解-小林coding]] — Claude Code 工程化全景

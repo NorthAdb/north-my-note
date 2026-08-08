@@ -143,7 +143,6 @@ Matt 用 Wayfinder 扩展基于 tldraw 的画图 app，想要搜索历史图表�
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1ukgi62EwL`（164 段逐句带时间轴）
-- 字幕全文：`原始材料/BV1ukgi62EwL_archive/subtitles/`
 
 ## 来源、覆盖与局限
 
@@ -155,5 +154,5 @@ Matt 用 Wayfinder 扩展基于 tldraw 的画图 app，想要搜索历史图表�
 ## 关联笔记
 
 - [[2026-07-31-Matt-Pocock直播-Wayfinder从想法到spec全流程]] — Wayfinder 的完整工作流（prototype ticket 是其中一环）
-- [[2026-07-31-Matt-Pocock直播-从零搭建项目-SlopWatch]] — Matt 的 GrillMe + DDD 方法论
+- [[Matt-Pocock/2026-07-31-Matt-Pocock直播-SlopWatch从零搭建完整实录]] — Matt 的 GrillMe + DDD 方法论
 - [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — Agent 架构知识地图

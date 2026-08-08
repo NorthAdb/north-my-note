@@ -152,7 +152,6 @@ Matt 的思考：
 ## 证据与原文位置
 
 - 字幕来源：agent-reach / OpenCLI `opencli bilibili subtitle BV1xK3h6fE7a`（176 段逐句；P2 字幕与 P1 重复，相似度 98%）
-- 字幕全文：`原始材料/BV1xK3h6fE7a_archive/subtitles/`
 
 ## 来源、覆盖与局限
 

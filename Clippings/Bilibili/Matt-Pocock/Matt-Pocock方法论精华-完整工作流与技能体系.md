@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-02
 tags: [Matt Pocock, 方法论, 精华, 汇总, Skills, Wayfinder, Agent工作流, DDD, 教学]
 source:
   - "五篇 Matt Pocock 系列笔记汇总"
@@ -178,6 +178,54 @@ source:
 
 ---
 
+## 🗂️ ADR：架构决策记录（Matt 的"长期记忆"答案）
+
+> **ADR = Architecture Decision Record（架构决策记录）**——一页纸的"决策备忘录"：记录做过的某个重要决策、当时为什么这么选、代价是什么，让"为什么"不随对话消失。这是经典软件工程概念，但 Matt 把它用作 Agent 工作流里的**长期记忆方案**。
+
+### 经典格式（Michael Nygard 三段式）
+
+```markdown
+# 决策：订单状态用 enum 而非 boolean
+## 背景（Context）
+  之前讨论时纠结：用 isPaid / isShipped 多个 boolean 还是 enum？
+## 决策（Decision）
+  用 enum：standard / short / future
+## 后果（Consequences）
+  扩展第三种状态只需加一个枚举值，不会像 boolean 组合那样爆炸
+```
+
+### 在 Matt 方法论中的角色（关键）
+
+Matt 对 ADR 的推荐，和他反对"长期 Agent 记忆（RAG）"是**同一件事的两面**：
+
+|          | 长期 Agent 记忆（RAG）      | ADR + 最小化 DDD                  |
+| :------- | :-------------------- | :----------------------------- |
+| Matt 的态度 | ❌ 坏主意                 | ✅ 推荐                           |
+| 存储       | 向量数据库，模糊、不可见          | **纯文本文件，存 repo 里**             |
+| 特性       | 不可观测、不可编辑、塞不进 context | **可观测、可编辑、能塞进 context window** |
+
+> 原话（SlopWatch 直播）：*"想要「超级可观测、超级具体、能立即编辑、能塞进 context window」的东西。方案：ADR + 最小化 DDD，不用 RAG 式长期记忆。"*
+
+**为什么关键**：Agent 每次会话都要读 context。ADR 是纯 markdown 文本，直接读进 context 窗口（token 占用少）；RAG 记忆是模糊检索，Agent 拿到的是片段、不可控。**ADR = 用"文件"当记忆，而不是用"数据库"当记忆。**
+
+### 在 Matt 流程中出现的位置
+
+1. **grill-with-docs**（有状态盘问）：边追问边**自动生成 ADR + 术语表**，存到 repo——盘问的副产品就是一套决策档案
+2. **domain-modeling**：敲定领域语言时，**难以逆转的决策**落成 ADR
+3. **to-spec 之后**：实现完 spec 删掉，但**关键决策沉淀成 ADR** 长期保留（spec 对比章节的"中间态"方案）
+
+### 与 spec 的关系（第三条路）
+
+```
+OpenSpec spec   → 长期维护整份规范（重）
+Matt spec       → 一次性交接文档（轻，用完即删）
+ADR             → 只保留"决策+理由"，不保留整份规范（Matt 的"长期记忆"答案）
+```
+
+**规律**：Matt 不维护整份 spec，但他**维护决策记录（ADR）**。一个持续更新整份文档，一个只存档每个决策点——ADR 是他在"spec 长期持有"和"spec 用完即删"之间的第三条路：**要长期的是"为什么"，不是"长什么样"。**
+
+---
+
 ## 🎯 实战案例汇总
 
 ### 案例 1：SlopWatch（监控平台）⭐ 完整实战实录
@@ -268,6 +316,10 @@ source:
 ---
 
 ## 关联笔记
+- [[2026-08-02-Matt-Pocock-grill-skill的9个误区]] — grill 误区与参数化知识
+- [[2026-08-01-Matt-Pocock-Wayfinder概念详解与FAQ]] — Wayfinder 概念与 FAQ
+- [[2026-08-05-Matt-Pocock实战-用Claude-Code从零开发真实项目]] — 完整项目实战实录（ghost course）
+- [[2026-08-06-Matt-Pocock-Agent-vs-Workflow科普]] — Agent vs Workflow 判定
 
 - [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — Agent 架构知识地图（AI架构师Leo）
 - [[2026-07-31-Agent系统架构设计-Harness-Loop-Graph怎么选]] — Harness 工程化深入版

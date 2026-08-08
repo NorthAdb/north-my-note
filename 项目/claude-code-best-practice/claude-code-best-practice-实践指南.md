@@ -11,16 +11,16 @@
 
 | 序号  | 文档                                                                            | 内容                                      | 建议时间  |
 | --- | ----------------------------------------------------------------------------- | --------------------------------------- | ----- |
-| 1   | [doc/01-CONCEPTS-概念总览.md](../doc/01-CONCEPTS-概念总览.md)                         | Claude Code 所有核心概念的中文解释                 | Day 1 |
-| 2   | [doc/02-子代理-subagents.md](../doc/02-子代理-subagents.md)                         | Subagent 定义、字段、最佳实践                     | Day 2 |
-| 3   | [doc/03-命令-commands.md](../doc/03-命令-commands.md)                             | Command 定义、85 个系统命令列表                   | Day 3 |
-| 4   | [doc/04-技能-skills.md](../doc/04-技能-skills.md)                                 | Skill 定义、设计原则、两种模式                      | Day 3 |
-| 5   | [doc/05-设置-settings.md](../doc/05-设置-settings.md)                             | 完整配置项说明（权限、模型、显示等）                      | Day 4 |
-| 6   | [doc/06-MCP服务器-mcp.md](../doc/06-MCP服务器-mcp.md)                               | MCP 配置、推荐服务器、权限规则                       | Day 5 |
-| 7   | [doc/07-记忆系统-memory.md](../doc/07-记忆系统-memory.md)                             | 三层记忆体系（CLAUDE.md + rules + Auto Memory） | Day 5 |
-| 8   | [doc/08-CLI启动参数-cli-startup-flags.md](../doc/08-CLI启动参数-cli-startup-flags.md) | 启动参数速查表                                 | Day 6 |
-| 9   | [doc/09-能力强化-power-ups.md](../doc/09-能力强化-power-ups.md)                       | 10 个交互式教学课程                             | Day 6 |
-| 10  | [doc/10-学习路径.md](../doc/10-学习路径.md)                                           | 从入门到精通的详细路线图                            | Day 7 |
+| 1   | [doc/practice/01-CONCEPTS-概念总览.md](doc/practice/01-CONCEPTS-概念总览.md)                         | Claude Code 所有核心概念的中文解释                 | Day 1 |
+| 2   | [doc/practice/02-子代理-subagents.md](doc/practice/02-子代理-subagents.md)                         | Subagent 定义、字段、最佳实践                     | Day 2 |
+| 3   | [doc/practice/03-命令-commands.md](doc/practice/03-命令-commands.md)                             | Command 定义、85 个系统命令列表                   | Day 3 |
+| 4   | [doc/practice/04-技能-skills.md](doc/practice/04-技能-skills.md)                                 | Skill 定义、设计原则、两种模式                      | Day 3 |
+| 5   | [doc/practice/05-设置-settings.md](doc/practice/05-设置-settings.md)                             | 完整配置项说明（权限、模型、显示等）                      | Day 4 |
+| 6   | [doc/practice/06-MCP服务器-mcp.md](doc/practice/06-MCP服务器-mcp.md)                               | MCP 配置、推荐服务器、权限规则                       | Day 5 |
+| 7   | [doc/practice/07-记忆系统-memory.md](doc/practice/07-记忆系统-memory.md)                             | 三层记忆体系（CLAUDE.md + rules + Auto Memory） | Day 5 |
+| 8   | [doc/practice/08-CLI启动参数-cli-startup-flags.md](doc/practice/08-CLI启动参数-cli-startup-flags.md) | 启动参数速查表                                 | Day 6 |
+| 9   | [doc/practice/09-能力强化-power-ups.md](doc/practice/09-能力强化-power-ups.md)                       | 10 个交互式教学课程                             | Day 6 |
+| 10  | [doc/10-学习路径.md](doc/practice/10-学习路径.md)                                           | 从入门到精通的详细路线图                            | Day 7 |
 
 ---
 
@@ -75,7 +75,7 @@ cd claude-code-best-practice
 
 ### Step 2 — 阅读中文文档
 
-按上面表格的顺序，从 [doc/01-CONCEPTS-概念总览.md](../doc/01-CONCEPTS-概念总览.md) 开始，每天 1-2 篇。
+按上面表格的顺序，从 [doc/practice/01-CONCEPTS-概念总览.md](doc/practice/01-CONCEPTS-概念总览.md) 开始，每天 1-2 篇。
 
 ### Step 3 — 运行第一个工作流
 
@@ -139,10 +139,10 @@ Claude 的"入职手册"——每次会话启动时自动加载，告诉 Claude 
 
 | 天数 | 学习内容 | 练习 |
 |------|----------|------|
-| Day 1 | 阅读 [CONCEPTS 概念总览](../doc/01-CONCEPTS-概念总览.md) | 理解五大概念 |
-| Day 2 | 阅读 [子代理](../doc/02-子代理-subagents.md) | 查看官方 agent 类型 |
-| Day 3 | 阅读 [命令](../doc/03-命令-commands.md) + [技能](../doc/04-技能-skills.md) | 区分三者的不同 |
-| Day 4 | 阅读 [设置](../doc/05-设置-settings.md) | 查看自己项目的 settings.json |
+| Day 1 | 阅读 [CONCEPTS 概念总览](doc/practice/01-CONCEPTS-概念总览.md) | 理解五大概念 |
+| Day 2 | 阅读 [子代理](doc/practice/02-子代理-subagents.md) | 查看官方 agent 类型 |
+| Day 3 | 阅读 [命令](doc/practice/03-命令-commands.md) + [技能](doc/practice/04-技能-skills.md) | 区分三者的不同 |
+| Day 4 | 阅读 [设置](doc/practice/05-设置-settings.md) | 查看自己项目的 settings.json |
 | Day 5 | 运行 `/weather-orchestrator` | 观察 Command→Agent→Skill |
 | Day 6 | 运行 `/powerup` | 10 个交互课程 |
 | Day 7 | 配置自己的 CLAUDE.md | 让 Claude 帮你生成 |
@@ -151,13 +151,13 @@ Claude 的"入职手册"——每次会话启动时自动加载，告诉 Claude 
 
 | 天数 | 学习内容 | 练习 |
 |------|----------|------|
-| Day 8 | 阅读 [MCP 服务器](../doc/06-MCP服务器-mcp.md) | 配置 Context7 |
-| Day 9 | 阅读 [记忆系统](../doc/07-记忆系统-memory.md) | 理解三层记忆 |
+| Day 8 | 阅读 [MCP 服务器](doc/practice/06-MCP服务器-mcp.md) | 配置 Context7 |
+| Day 9 | 阅读 [记忆系统](doc/practice/07-记忆系统-memory.md) | 理解三层记忆 |
 | Day 10 | 创建 Subagent | 创建一个 code-reviewer |
 | Day 11 | 创建 Skill | 记录项目 API 设计模式 |
 | Day 12 | 创建 Command | 创建 `/deploy` |
 | Day 13 | 配置权限 | 使用 `/permissions` |
-| Day 14 | 阅读 [CLI 启动参数](../doc/08-CLI启动参数-cli-startup-flags.md) | 学会 `-p` 一次性用法 |
+| Day 14 | 阅读 [CLI 启动参数](doc/practice/08-CLI启动参数-cli-startup-flags.md) | 学会 `-p` 一次性用法 |
 
 ### 第 3 周：进阶技巧
 
@@ -243,3 +243,12 @@ Claude 的"入职手册"——每次会话启动时自动加载，告诉 Claude 
 > "from vibe coding to agentic engineering — practice makes claude perfect"
 >
 > 别把 Claude 当聊天机器人——学会用 Agent + Command + Skill 构建你的开发工作流。
+
+
+---
+
+## 🔗 关联笔记
+
+- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线（Stage 4 Harness）
+- [[领域/Claude Code - Command与Skill区别]] — Command/Skill 概念速查
+- [[领域/2026暑假手账]] — 假期总结

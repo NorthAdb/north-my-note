@@ -174,6 +174,7 @@ demo/
 ---
 
 ## 🔗 关联笔记
+- [[领域/Java后端+Agent开发学习路线 2026]] — 项目推荐出处（Java 主线）
 
 - [[领域/AI Agent 智能体学习路线 2026.md]] — 完整 AI Agent 学习路线
 - [[领域/Python vs TypeScript AI时代编程语言之争.md]] — AI 开发语言选择

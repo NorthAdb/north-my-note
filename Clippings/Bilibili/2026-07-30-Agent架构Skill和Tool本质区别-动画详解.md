@@ -141,7 +141,6 @@ source:
 - **BVID**：`BV1NB3s6CE4E`
 - **UP主**：Agent开发入门
 - **字幕来源**：B站网页 AI 字幕（质量良好）
-- **原始材料**：`Clippings/Bilibili/原始材料/BV1NB3s6CE4E/`
 
 ---
 

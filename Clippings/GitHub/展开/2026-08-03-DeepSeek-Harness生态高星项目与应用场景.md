@@ -10,7 +10,7 @@ tags: [GitHub, Agent, Harness, DeepSeek, 开源项目, 项目选型]
 
 ## 一句话结论
 
-[[https://github.com/Octo-o-o-o/deepseek-harness-applicants]] 不是一个 Agent 框架，而是 DeepSeek Harness 内测报名活动的**非官方开发者与项目档案库**。本笔记从它的高星榜和 DeepSeek-native 项目列表中，筛选出具有明确应用场景、值得学习或选型参考的项目。
+[deepseek-harness-applicants](https://github.com/Octo-o-o-o/deepseek-harness-applicants) 不是一个 Agent 框架，而是 DeepSeek Harness 内测报名活动的**非官方开发者与项目档案库**。本笔记从它的高星榜和 DeepSeek-native 项目列表中，筛选出具有明确应用场景、值得学习或选型参考的项目。
 
 > 目标仓库是社区维护的非官方档案，不代表 DeepSeek 官方背书，也不是录取名单。Stars 采用目标仓库的 `2026-08-03-manual` 快照值；实时 Stars 可能已经变化。
 
@@ -313,3 +313,10 @@ Harness 能力：Skills / Subagents / Sandbox / Context
 - [DeepSeek Harness Applicants 原始仓库](https://github.com/Octo-o-o-o/deepseek-harness-applicants)
 - [原始仓库 README](https://github.com/Octo-o-o-o/deepseek-harness-applicants/blob/main/README.md)
 - 各项目官方 GitHub 仓库链接见上表；Stars 和赛道取自 `2026-08-03-manual` 快照，项目定位取自各项目官方仓库描述/README。
+
+---
+
+## 🔗 关联笔记
+- [[2026-07-28-我的GitHub加星项目]] — 自收藏项目索引（部分重叠）
+- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线（Harness 相关 Stage 4）
+- [[领域/2026暑假手账]] — 假期总结

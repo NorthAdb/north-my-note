@@ -153,3 +153,11 @@ Python 基础
 - **PyPI 包**：`pip install hello-agents`
 - **JS 工作流层**：https://github.com/hellowind777/helloagents
 - **在线阅读**：教程配套的在线文档（中英文双语）
+
+
+---
+
+## 🔗 关联笔记
+
+- [[领域/Java后端+Agent开发学习路线 2026]] — Java+Agent 主线路线
+- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线
