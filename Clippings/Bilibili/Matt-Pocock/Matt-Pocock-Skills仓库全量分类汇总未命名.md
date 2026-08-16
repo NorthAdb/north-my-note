@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-13
 tags: [Matt Pocock, Skills, 仓库清单, 分类汇总, engineering, productivity, Agent工作流]
 source:
   - "https://github.com/mattpocock/skills"
@@ -10,8 +10,21 @@ source:
 # Matt Pocock Skills 仓库全量分类汇总
 
 > **仓库**：[mattpocock/skills](https://github.com/mattpocock/skills) | **理念**：Skills For Real Engineers（真实工程，不是 vibe coding）
-> **规模**：16 万 star · 750 万下载 · 官方 + 实验共 ~38 个 skills · 全部只占 ~660 token 上下文
-> **安装**：`npx skills@latest add mattpocock/skills` 或 Claude Code 插件
+> **规模**：21.6 万 star（215,920）· 1540 万 installs · 35 个 skills（工程 18 + 生产力 7 + misc 4 + 实验 6；插件含前 25 个）
+> **安装**：`claude plugins install mattpocock-skills`（Claude Code 官方插件，自动更新）或 `npx skills@latest add mattpocock/skills`（可编辑副本）
+
+---
+
+## 📅 本次更新（2026-08-13，对比 07-31 快照）
+
+| 类型 | 变化 |
+| :--- | :--- |
+| **新增** | `wait-what`（productivity）：一句话纠正模型啰嗦 |
+| **改名 + 重构** | `writing-great-skills` → **`writing-for-agents`**（覆盖所有 agent 消费的文档，改 model-invoked，旧名无别名） |
+| **转正** | `wizard`：in-progress → **engineering**（model-invoked）；`to-questionnaire`：in-progress → **productivity** |
+| **移除** | `edit-article`、`obsidian-vault`（原 Personal 类整体消失）、`batch-grill-me`、`design-an-interface`、`qa`、`request-refactor-plan`、`ubiquitous-language`（deprecated 桶已清空） |
+| **大改** | `prototype`（单一 HTML 文件 + primary source）、`wayfinder`（decision ticket + research 子 agent 并行）、`ask-matt`（phase 决策树 + 新路由）、`diagnosing-bugs`（脱敏）、`improve-codebase-architecture`（YAGNI 范围过滤） |
+| **安装** | 新增官方 Claude Code 插件（`claude plugins install mattpocock-skills`，v1.2.3，25 个 skill，自动更新）；skills 全部带 Codex 元数据，双 harness 可用 |
 
 ---
 
@@ -21,11 +34,11 @@ source:
 
 - 小而可组合，不搞大而全的流程框架
 - 基于数十年工程经验，不依赖特定模型
-- 大多需**手动调用**（不自动加载），描述精简精准
+- 大多需**手动调用**（不自动加载），描述精简精准；`wizard` / `writing-for-agents` 为 model-invoked（agent 可自动触发）
 
 ---
 
-## 🏗️ Engineering 工程类（17 个）⭐ 核心
+## 🏗️ Engineering 工程类（18 个）⭐ 核心
 
 ### 探索与规划
 
@@ -52,16 +65,17 @@ source:
 | Skill | 作用 | 何时用 |
 |:------|:-----|:-------|
 | **implement** | 基于 spec/tickets 实现一块工作 | 有 spec 或 ticket 后 |
-| **code-review** | 从固定点（commit/branch/tag）审查改动，两个维度：仓库标准 + 代码异味 | 提交前 |
+| **code-review** | 从固定点（commit/branch/tag/merge-base）审查改动，两个维度：Standards（是否遵循仓库标准）+ Spec（是否符合原始 issue/spec），并行子 agent 双审 | 提交前 |
 | **diagnosing-bugs** | 硬 bug 和性能回归的诊断循环 | debug/诊断 |
 | **improve-codebase-architecture** | 扫描代码库找深化机会 → HTML 报告 → 挑一个 grill | 定期重构 |
 | **resolving-merge-conflicts** | 解决进行中的 git merge/rebase 冲突 | 冲突时 |
 | **ask-matt** | 技能路由器：根据情况推荐该用哪个 skill/流程 | 不知道用哪个时 |
 | **setup-matt-pocock-skills** | 配置仓库：issue tracker、triage 标签词汇、领域文档布局（首次使用前跑一次） | 首次配置 |
+| **wizard** | 生成交互式 bash 向导，带人走完**只有人能做**的步骤（配置密钥/CI secret、走陌生第三方面板、一次性迁移） | 遇到"只能人做"的步骤时（model-invoked） |
 
 ---
 
-## 🛠️ Productivity 生产力类（5 个）
+## 🛠️ Productivity 生产力类（7 个）
 
 | Skill                    | 作用                            | 何时用               |
 | :----------------------- | :---------------------------- | :---------------- |
@@ -69,7 +83,9 @@ source:
 | **grilling**             | 关于计划/决策/想法的持续盘问               | 任何 grill 触发词      |
 | **handoff**              | 把当前对话 compact 成交接文档给另一个 agent | 换会话/交接            |
 | **teach**                | 在当前工作区教用户新技能/概念（有状态教学工作区）     | 想学东西时             |
-| **writing-great-skills** | 写好 skills 的参考（词汇表 + 原则）       | 写/改 skill 时       |
+| **wait-what**            | 🆕 一句话纠正模型啰嗦："停，这句没听懂，重新讲"（三行小 skill，user-invoked） | 模型输出没落地时           |
+| **to-questionnaire**     | 🆕 把无法独自回答的决策变成问卷，给别人（异步/会议上）填 | 只有别人能回答时          |
+| **writing-for-agents**   | 写 agents 消费的文档（skills、AGENTS.md/CLAUDE.md、指针文档）的参考，model-invoked | 写/改 skill 或 agent 文档时 |
 
 ---
 
@@ -84,48 +100,39 @@ source:
 
 ---
 
-## 👤 Personal 个人类（2 个）
+## 👤 Personal 个人类（已移除 🗑️）
 
-| Skill | 作用 |
-|:------|:-----|
-| **edit-article** | 编辑改进文章：重构结构、提升清晰度、收紧行文 |
-| **obsidian-vault** | 在 Obsidian vault 中搜索/创建/管理笔记（wikilinks + index notes）|
+> 原 `edit-article`、`obsidian-vault` 两个 skill 已从仓库删除（2026-08-13 前）。仓库现在只有 engineering / productivity / misc / in-progress 四个正式桶，不再有 personal 桶。
 
 ---
 
-## 🧪 In-progress 实验类（9 个）
+## 🧪 In-progress 实验类（6 个）
 
 | Skill | 作用 | 状态 |
 |:------|:-----|:-----|
-| **batch-grill-me** | 一轮同时问所有前沿问题 | 实验 |
 | **claude-handoff** | 把当前对话交给一个全新的后台 agent 立即接续 | 实验 |
 | **loop-me** | 针对要构建的工作流 spec 盘问 | 实验 |
-| **setup-ts-deep-modules** | 把 dependency-cruiser 接入 TS 仓库，让每个包成为深度模块 | 实验 |
-| **to-questionnaire** | 把无法完全回答的决策变成问卷给别人填 | 实验 |
-| **wizard** | 生成交互式 bash 向导，带人走完手工流程 | 实验 |
+| **setup-ts-deep-modules** | 把 dependency-cruiser 接入 TS 仓库，让每个包成为深度模块（实现藏在子目录、只能通过入口文件触达） | 实验 |
 | **writing-beats** | 写作·exploit：把原材料组装成节奏（beats）旅程 | 实验 |
 | **writing-fragments** | 写作·explore：挖掘原始片段，还没结构 | 实验 |
 | **writing-shape** | 写作·exploit：把原材料逐段塑造成文章 | 实验 |
 
 > 写作三件套（fragments → shape → beats）是 Matt 在打磨的写作工作流：先无结构探索，再塑形，再组装成节奏。
+> ⚠️ 原 `batch-grill-me` 已被移除；`to-questionnaire` 和 `wizard` 已转正（见上）。
 
 ---
 
-## 🗑️ Deprecated 已废弃类（4 个）
+## 🗑️ Deprecated 已废弃类（空）
 
-| Skill | 作用 | 被什么替代 |
-|:------|:-----|:----------|
-| **design-an-interface** | 用并行 sub-agent 生成多种界面设计 | → codebase-design |
-| **qa** | 交互式 QA 会话，报 bug 自动提 issue | → diagnosing-bugs |
-| **request-refactor-plan** | 规划重构 + 提 GitHub issue | → improve-codebase-architecture / codebase-design |
-| **ubiquitous-language** | 提取 DDD 统一语言术语表 | → domain-modeling |
+> 仓库的 deprecated 桶已清空。新规则：**退役即删**——一个 skill 不再使用时直接删除，由对应 changeset 注明替代品。原 4 个已删除：
+> `design-an-interface`（→ codebase-design）、`qa`（→ diagnosing-bugs）、`request-refactor-plan`（→ improve-codebase-architecture / codebase-design）、`ubiquitous-language`（→ domain-modeling）
 
 ---
 
 ## 🔗 主流程链路（这些 skills 如何配合）
 
 ```
-wayfinder（超大会话量探索）      grill-with-docs（打磨方案）
+wayfinder（决策 ticket map：把超大工作拆成 issue tracker 上的决策）   grill-with-docs（打磨方案）
       │                              │
       └──────► to-spec（合成 spec）
                     │
@@ -137,12 +144,13 @@ wayfinder（超大会话量探索）      grill-with-docs（打磨方案）
 ```
 
 **围绕主链路的辅助**：
-- `research`：为决策做调研（可并行 sub-agent）
-- `prototype`：需要可运行答案时提保真度
+- `research`：为决策做调研（wayfinder 的 research tickets 会派 `/research` 子 agent 并行烧毁，是"每会话一个 ticket"的唯一例外）
+- `prototype`：需要可运行答案时提保真度（产物变成单一 HTML 文件 + throwaway branch）
 - `domain-modeling`：敲定统一语言，让 spec/实现更精准
 - `triage`：管理 issue 流
-- `code-review` + `improve-codebase-architecture`：持续保证质量
-- `ask-matt`：不知道用哪个时的路由器
+- `code-review` + `improve-codebase-architecture`：持续保证质量（后者现在按 YAGNI 只扫活跃开发的路径）
+- `ask-matt`：不知道用哪个时的路由器（覆盖 phase 边界决策 + 新路由 /grilling、/resolving-merge-conflicts）
+- `wizard`：流程卡在"只能人做"的步骤时，由 agent 自动拉起（model-invoked）
 
 ---
 
@@ -163,20 +171,23 @@ wayfinder（超大会话量探索）      grill-with-docs（打磨方案）
 | 让代码库更好改     | **improve-codebase-architecture** |
 | 学新东西        | **teach**                         |
 | 交接给别的 agent | **handoff**                       |
+| 模型输出没落地/太啰嗦 | **wait-what**                     |
+| 需要别人才能回答的决策 | **to-questionnaire**              |
+| 流程卡在"只能人做"的步骤 | **wizard**                        |
 
 ---
 
 ## 证据与原文位置
 
-- **仓库**：https://github.com/mattpocock/skills（通过 gh API 读取目录结构 + SKILL.md frontmatter）
-- **docs 目录**：`docs/engineering/`（17 个 skill 各有 doc）+ `docs/productivity/`（5 个）
+- **仓库**：https://github.com/mattpocock/skills（通过 gh API 读取目录结构 + SKILL.md frontmatter + CHANGELOG）
+- **docs 目录**：`docs/engineering/`（18 个 skill 各有 doc）+ `docs/productivity/`（7 个）
 - 各 SKILL.md frontmatter 的 description 字段为汇总依据
 
 ## 局限
 
-- ⚠️ In-progress 和 deprecated 的 skill 可能随时变化/移除
+- ⚠️ In-progress 的 skill 可能随时变化/移除；deprecated 桶新规则为"退役即删"
 - ⚠️ 描述为英文原文的精简翻译，完整用法以仓库 SKILL.md 为准
-- ⚠️ 仓库持续更新（Matt 每周都在 ship 改动），本清单基于 2026-07-31 抓取
+- ⚠️ 仓库持续更新（Matt 每周都在 ship 改动），本清单基于 **2026-08-13** 抓取（插件 v1.2.3）
 
 ## 关联笔记
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-14
 tags: [Matt Pocock, teach skill, 教学, 最近发展区, stateful skill, HTML课程, B站笔记, OpenCLI字幕]
 source:
   - "https://www.bilibili.com/video/BV1xK3h6fE7a/"
