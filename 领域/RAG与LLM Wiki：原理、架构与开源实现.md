@@ -51,16 +51,16 @@ source:
               └─ Code Wiki：代码库 → 结构理解 → 可追溯的架构与模块文档
 ```
 
-| 概念 | 主要持久化对象 | 主要动作 | 是否等于 LLM Wiki |
-|---|---|---|---|
-| **RAG** | 文档块、向量、倒排索引、元数据 | 查询时找证据 | 不一定 |
-| **Semantic Search** | 向量和相似度 | 找语义相近文本 | 不是 |
-| **BM25 / Keyword Search** | 词项倒排索引 | 找精确词、编号、名称 | 不是 |
-| **Vector Database** | 向量、Payload、ANN 索引 | 高效近邻搜索 | 只是基础设施 |
-| **Knowledge Graph** | 节点、边、属性、类型 | 关系查询与图遍历 | 不一定 |
-| **Agent Memory** | 事实、偏好、事件、技能、状态 | 跨轮次召回与写回 | 通常不是 |
-| **Code Wiki** | 代码结构、模块说明、引用链接 | 解释代码库 | 是一种特殊 Wiki |
-| **LLM Wiki** | 原始资料之外的互链知识页面 | 编译、查询、修订、体检 | 是 |
+| 概念                        | 主要持久化对象           | 主要动作        | 是否等于 LLM Wiki |
+| ------------------------- | ----------------- | ----------- | ------------- |
+| **RAG**                   | 文档块、向量、倒排索引、元数据   | 查询时找证据      | 不一定           |
+| **Semantic Search**       | 向量和相似度            | 找语义相近文本     | 不是            |
+| **BM25 / Keyword Search** | 词项倒排索引            | 找精确词、编号、名称  | 不是            |
+| **Vector Database**       | 向量、Payload、ANN 索引 | 高效近邻搜索      | 只是基础设施        |
+| **Knowledge Graph**       | 节点、边、属性、类型        | 关系查询与图遍历    | 不一定           |
+| **Agent Memory**          | 事实、偏好、事件、技能、状态    | 跨轮次召回与写回    | 通常不是          |
+| **Code Wiki**             | 代码结构、模块说明、引用链接    | 解释代码库       | 是一种特殊 Wiki    |
+| **LLM Wiki**              | 原始资料之外的互链知识页面     | 编译、查询、修订、体检 | 是             |
 
 ---
 
@@ -1213,7 +1213,7 @@ Cognee 将数据经过 `cognify` 转化为实体、关系、摘要和 Embedding�
 
 当前 Vault 已经有：
 
-- [[2026-07-29-RAG核心知识全解析-小林面试笔记]]：RAG 基础、切块、Embedding、重排、向量库、评估；
+- [[2026-09-01-RAG核心知识全解析（范式演进）]]：RAG 基础、切块、Embedding、重排、向量库、评估；
 - [[2026-08-04-GraphRAG与LightRAG-小林面试笔记]]：图增强检索和选型；
 - [[Clippings/Bilibili/2026-08-04-保姆教程-卡帕西LLM-Wiki强在哪]]：LLM Wiki 的工作流与 Obsidian 组织方式；
 - [[领域/CodeWiki Google的AI驱动代码文档平台]]：代码 Wiki 与代码理解；
@@ -1418,7 +1418,7 @@ BM25 Top-50
 
 ## 关联笔记
 
-- [[2026-07-29-RAG核心知识全解析-小林面试笔记]] — RAG 基础、切块、Embedding、重排、向量库和评估
+- [[2026-09-01-RAG核心知识全解析（范式演进）]] — RAG 基础、切块、Embedding、重排、向量库和评估
 - [[2026-08-04-GraphRAG与LightRAG-小林面试笔记]] — GraphRAG、LightRAG 的索引、查询与选型
 - [[Clippings/Bilibili/2026-08-04-保姆教程-卡帕西LLM-Wiki强在哪]] — LLM Wiki 与 Obsidian 工作流
 - [[领域/Claude Code记忆系统与Agent记忆架构]] — Agent Memory、语义记忆和 GraphRAG
