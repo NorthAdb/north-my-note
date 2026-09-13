@@ -477,3 +477,4 @@ dsh plugin --profile web remove @dsh-external/dsh-vision-toolkit
 - **与腾讯 DECO 的 Hook 护栏对比**：[[Clippings/微信公众号/2026-08-11-Agent治理-用Hook堵住LLM的偷懒越权与失忆]] 用 beforeTool/afterTool 切面挂护栏；DSH 更进一步，把"工具执行前后检查"做成独立可插拔的 pre-execute/post-execute 阶段——同一思想（基础设施与推理解耦），不同抽象粒度。
 - **与多 Agent 通信**：[[Clippings/微信公众号/2026-08-13-多Agent通信实践全景-从编排到终端直连]] 讲 agent 之间怎么通信；DSH 的 Cordis 提供了"agent 内部组件如何通信"的答案（ctx 服务 + Fiber 链作用域），生态里也已有 `dsh-agent-teams`、`dsh_workflow` 等把 agent 编排成团队的多 Agent 插件。
 - **可迁移设计**：「时间可组合性」（卸载 = 完整逆转）是通用的插件系统设计原则——如果做 agent 产品，这套 effect/disposer 模式值得直接借鉴。
+- **与 Cordis 深读互补**：[[Clippings/微信公众号/2026-09-04-Cordis-DeepSeek-Harness的心脏-腾讯技术工程]]（腾讯技术工程，作者 lss233）从五个核心概念到 88 页论文定理，补全了本笔记未展开的 effect/coeffect 理论基础与元理论五条定理（保型/时序/空间/进展/汇合）。

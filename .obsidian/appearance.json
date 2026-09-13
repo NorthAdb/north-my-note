@@ -1,5 +1,9 @@
 {
   "enabledCssSnippets": [
-    "todo-no-strikethrough"
-  ]
+    "todo-no-strikethrough",
+    "custom-fonts",
+    "line-spacing"
+  ],
+  "baseFontSize": 18,
+  "textFontFamily": ""
 }
