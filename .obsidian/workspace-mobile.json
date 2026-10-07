@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "领域/nginx/nginx-notes.md",
+                "file": "Clippings/Bilibili/2026-08-20-AI-Agent面试复盘-从框架到可靠系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nginx-notes"
+              "title": "2026-08-20-AI-Agent面试复盘-从框架到可靠系统"
             }
           }
         ]
@@ -37,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "文件列表"
@@ -171,6 +173,7 @@
   },
   "active": "b2cb070bd2a90be9",
   "lastOpenFiles": [
+    "领域/nginx/nginx-notes.md",
     "doc-pqsectunnel/流程.md",
     "doc-pqsectunnel/defense/00a-WireGuard背景与对比.md",
     "doc-pqsectunnel/defense/02-协议总览.md",
@@ -198,7 +201,6 @@
     "Clippings/GitHub/2026-07-04-我的GitHub加星项目.md",
     "Clippings/第一次用Obsidian？先把这8个插件装好再说.md",
     "Clippings/Bilibili/2026-07-04-我的B站AI收藏清单.md",
-    "项目/claude-code-best-practice/claude-code-best-practice-实践指南.md",
-    "Clippings/Bilibili/2026-07-04-第一次用Obsidian？先把这8个插件装好再说.md"
+    "项目/claude-code-best-practice/claude-code-best-practice-实践指南.md"
   ]
 }
