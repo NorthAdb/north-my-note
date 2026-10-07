@@ -44,6 +44,6 @@ Reranker（重排器/重排模型）是 RAG 检索后处理阶段的关键组件
 
 ## 来源提及
 
-- "第二阶段使用 Cross-Encoder 或 LLM Reranker：把“查询 + 文档”放在同一个模型输入中，让两者发生更充分的交互，负责从 Top-N 精排到 Top-K。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "Rerank 通常提升精度，但会增加延迟和成本；它不能修复“文档根本没有被召回”的问题。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| **Reranking** | 如何在候选结果中判断真实相关性 | 精排 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "第二阶段使用 Cross-Encoder 或 LLM Reranker：把“查询 + 文档”放在同一个模型输入中，让两者发生更充分的交互，负责从 Top-N 精排到 Top-K。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Rerank 通常提升精度，但会增加延迟和成本；它不能修复“文档根本没有被召回”的问题。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Reranking** | 如何在候选结果中判断真实相关性 | 精排 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

@@ -29,6 +29,6 @@ Cognee 是一个图与向量混合的知识记忆引擎，采用 Apache-2.0 许�
 
 ## 来源提及
 
-- "Cognee 将数据经过 `cognify` 转化为实体、关系、摘要和 Embedding，并提供多通道搜索。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "cognee/tasks/graph/extract_graph_from_data.py：LLM 图抽取、Ontology 校验、关系整合和溯源；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它展示了一个比简单向量库更完整的知识层：检索时可以同时查 Chunk、Entity、Edge、Summary 和 Graph Context。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Cognee 将数据经过 `cognify` 转化为实体、关系、摘要和 Embedding，并提供多通道搜索。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "cognee/tasks/graph/extract_graph_from_data.py：LLM 图抽取、Ontology 校验、关系整合和溯源；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它展示了一个比简单向量库更完整的知识层：检索时可以同时查 Chunk、Entity、Edge、Summary 和 Graph Context。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

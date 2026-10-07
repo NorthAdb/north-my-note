@@ -47,7 +47,7 @@ Naive RAG（朴素 RAG）是检索增强生成（RAG）最基础的实现形态�
 
 ## 来源提及
 
-- "这就是 **Naive RAG（朴素 RAG）**。它适合做基线，但在复杂场景中通常会遇到：" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| **Naive RAG** | 向量 Top-K → Prompt → LLM | 做基线、简单问答 | 召回噪声、多跳弱 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "这就是 **Naive RAG（朴素 RAG）**。它适合做基线，但在复杂场景中通常会遇到：" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Naive RAG** | 向量 Top-K → Prompt → LLM | 做基线、简单问答 | 召回噪声、多跳弱 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
 - "1. Naive RAG 基线
-   文档 → Chunk → Embedding → Vector DB → 回答" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+   文档 → Chunk → Embedding → Vector DB → 回答" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

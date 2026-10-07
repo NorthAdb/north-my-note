@@ -298,6 +298,6 @@ if (loadedFrom !== 'mcp') {
 ## 🔗 关联笔记
 - [[2026-07-30-Agent架构Skill和Tool本质区别-动画详解]] — Skill vs Tool 本质（互证）
 
-- [[领域/AI Agent 智能体学习路线 2026]] — Stage 6 涵盖 Skills 生态
-- [[领域/Claude Code记忆系统与Agent记忆架构]] — Claude Code 记忆机制
-- [[领域/Claude Code - Command与Skill区别]] — 对比分析
+- [[AI Agent 智能体学习路线 2026]] — Stage 6 涵盖 Skills 生态
+- [[Claude Code记忆系统与Agent记忆架构]] — Claude Code 记忆机制
+- [[Claude Code - Command与Skill区别]] — 对比分析

@@ -416,7 +416,7 @@ Zig Server Daemon
   → C/S 协议与多客户端
 ```
 
-这与 [[领域/AI Agent 智能体学习路线 2026]] 中“先理解 Agent Loop，再学习 Tool、Memory、Harness 和生产部署”的路径一致，也可以和 [[2026-07-30-AI-Agent落地铁三角-Graph-Loop-Harness]] 放在一起理解：Violin 主要展示的是单个 Agent 内部的 **Loop + Harness 基础设施**，Graph 则是更上层的任务编排问题。
+这与 [[AI Agent 智能体学习路线 2026]] 中“先理解 Agent Loop，再学习 Tool、Memory、Harness 和生产部署”的路径一致，也可以和 [[2026-07-30-AI-Agent落地铁三角-Graph-Loop-Harness]] 放在一起理解：Violin 主要展示的是单个 Agent 内部的 **Loop + Harness 基础设施**，Graph 则是更上层的任务编排问题。
 
 ## 原图（已下载到 vault）
 

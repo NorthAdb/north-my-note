@@ -1,0 +1,57 @@
+/* =========================================================================
+   Obsidian 自定义字体
+   =========================================================================
+   依据推荐组合：
+   - 中文正文：思源黑体 (Noto Sans SC / Source Han Sans)、苹方 (PingFang SC)
+   - 英文正文：Inter、SF Pro
+   - 代码字体：JetBrains Mono、Fira Code
+   -------------------------------------------------------------------------
+   说明：
+   - 字体按「英文字体在前、中文字体在后」排列，拉丁字符优先用 Inter/SF Pro，
+     中文自动回退到 思源黑体 / 苹方（或系统其他黑体），互不干扰。
+   - 若系统未安装某字体，会依次回退到下一个候选，不会报错。
+   - macOS 自带 苹方(PingFang SC) 与 SF Pro；Windows 默认不包含这两者，
+     中文会回退到 微软雅黑，英文回退到 Segoe UI。若想完全按推荐效果，
+     需自行安装 Noto Sans SC（思源黑体）与 JetBrains Mono / Inter。
+   ========================================================================= */
+
+:root,
+body {
+  /* 界面 + 正文：英文 Inter/SF Pro，中文 思源黑体/苹方 */
+  --font-interface: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", "微软雅黑", sans-serif;
+  --font-text: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", "微软雅黑", sans-serif;
+
+  /* 代码：JetBrains Mono / Fira Code */
+  --font-monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono",
+    "Consolas", "Courier New", monospace;
+
+  /* 覆盖 Obsidian「外观 > 字体」的强制设定，确保本片段优先生效 */
+  --font-interface-override: var(--font-interface) !important;
+  --font-text-override: var(--font-text) !important;
+  --font-monospace-override: var(--font-monospace) !important;
+}
+
+/* 兜底：若个别主题仍硬编码字体，这里强制应用正文与代码字体 */
+body,
+.markdown-reading-view .markdown-preview-view,
+.markdown-source-view .cm-content,
+.markdown-source-view .cm-editor {
+  font-family: var(--font-text) !important;
+}
+
+/* 代码块与行内代码 */
+code,
+pre,
+.markdown-rendered code,
+.markdown-rendered pre,
+.markdown-source-view .cm-editor .HyperMD-codeblock,
+.markdown-source-view .cm-editor .cm-hmd-codeblock,
+.markdown-source-view .cm-editor .cm-inline-code,
+.markdown-source-view .cm-editor span.cm-comment,
+.markdown-source-view .cm-editor span.cm-string {
+  font-family: var(--font-monospace) !important;
+}

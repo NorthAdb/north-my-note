@@ -249,6 +249,6 @@ Claude 的"入职手册"——每次会话启动时自动加载，告诉 Claude 
 
 ## 🔗 关联笔记
 
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线（Stage 4 Harness）
-- [[领域/Claude Code - Command与Skill区别]] — Command/Skill 概念速查
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线（Stage 4 Harness）
+- [[Claude Code - Command与Skill区别]] — Command/Skill 概念速查
 - [[领域/2026暑假手账]] — 假期总结

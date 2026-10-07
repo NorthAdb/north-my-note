@@ -150,5 +150,5 @@ paths: ["**/*.test.ts", "**/*.spec.ts"]
 ---
 
 ## 🔗 关联笔记
-- [[领域/Claude Code记忆系统与Agent记忆架构]] — CLAUDE.md 五层作用域详解（互补）
+- [[Claude Code记忆系统与Agent记忆架构]] — CLAUDE.md 五层作用域详解（互补）
 - [[领域/2026暑假手账]] — 假期总结

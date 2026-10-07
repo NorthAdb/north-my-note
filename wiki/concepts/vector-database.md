@@ -52,12 +52,12 @@ Vector Database（向量数据库）是面向大规模向量近邻检索优化�
 
 ## 来源提及
 
-- "但 RAG 本身不等于 Wiki，向量数据库也不等于知识库。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| **Vector Database** | 向量、Payload、ANN 索引 | 高效近邻搜索 | 只是基础设施 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "但 RAG 本身不等于 Wiki，向量数据库也不等于知识库。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Vector Database** | 向量、Payload、ANN 索引 | 高效近邻搜索 | 只是基础设施 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
 - "向量数据库通常需要同时保存：
 - 向量；
 - 原始文本或原文引用；
 - 稳定的 document_id / chunk_id；
 - title、section、page、timestamp、tenant、ACL 等 Payload；
 - dense/sparse 索引；
-- 更新、删除、快照、分片、复制和观测信息。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- 更新、删除、快照、分片、复制和观测信息。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

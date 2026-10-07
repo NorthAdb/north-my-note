@@ -42,6 +42,6 @@ RAG-Token 是原始 RAG 论文（Lewis et al., 2020）定义的两种标准生�
 
 ## 来源提及
 
-- "生成不同 token 时，允许不同文档发挥作用：" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "p(y | x) ≈ Πᵢ Σ p(z | x) p(yᵢ | x, z, y₁:ᵢ₋₁)" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "表达能力更灵活，但推理和训练解释更复杂。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "生成不同 token 时，允许不同文档发挥作用：" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "p(y | x) ≈ Πᵢ Σ p(z | x) p(yᵢ | x, z, y₁:ᵢ₋₁)" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "表达能力更灵活，但推理和训练解释更复杂。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

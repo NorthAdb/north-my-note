@@ -31,6 +31,6 @@ DeepWiki-Open 是一个 MIT 许可的开源 [[concepts/code-wiki|Code Wiki]] 项
 
 ## 来源提及
 
-- "它面向代码库，不是个人研究 Wiki。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它的启示是：**RAG 负责找相关文件，Wiki 负责把局部检索结果提升为可浏览的结构文档。**" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "api/rag/rag.py：FAISS 检索；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它面向代码库，不是个人研究 Wiki。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它的启示是：**RAG 负责找相关文件，Wiki 负责把局部检索结果提升为可浏览的结构文档。**" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "api/rag/rag.py：FAISS 检索；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

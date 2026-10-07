@@ -30,6 +30,6 @@ Mem0（mem0ai/mem0）是一个面向 AI Agent 的开源长期记忆项目，GitH
 
 ## 来源提及
 
-- "Mem0 的持久对象是经过提取的记忆项，带有身份范围、历史和元数据，而不是完整对话 Transcript。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它与 LLM Wiki 的共同点是“写回”，差别是 Mem0 以原子记忆、偏好和事件为中心，不以人可浏览的 Markdown 概念页为中心。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "选取并更新长期记忆，而不是保存整段对话" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Mem0 的持久对象是经过提取的记忆项，带有身份范围、历史和元数据，而不是完整对话 Transcript。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它与 LLM Wiki 的共同点是“写回”，差别是 Mem0 以原子记忆、偏好和事件为中心，不以人可浏览的 Markdown 概念页为中心。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "选取并更新长期记忆，而不是保存整段对话" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

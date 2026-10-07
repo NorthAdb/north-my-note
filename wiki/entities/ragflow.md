@@ -30,6 +30,6 @@ RAGFlow 是 InfiniFlow 开源的完整 RAG 引擎，GitHub 仓库为 infiniflow/
 
 ## 来源提及
 
-- "RAGFlow 是完整的 RAG 引擎，重点不只在向量搜索，而在文档理解、模板化切块、混合检索、融合重排、引用和 Agent 工作流。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "阅读它时重点观察：一个“上传 PDF 后问答”的产品，背后其实包含 Parser、Chunker、Index、Retriever、Reranker、Citation 和 Agent Graph 多个层。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| [RAGFlow](https://github.com/infiniflow/ragflow) | 87.2k | Apache-2.0 | 完整 RAG 引擎 | 文档解析、Chunk、混合检索、Agentic RAG |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "RAGFlow 是完整的 RAG 引擎，重点不只在向量搜索，而在文档理解、模板化切块、混合检索、融合重排、引用和 Agent 工作流。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "阅读它时重点观察：一个“上传 PDF 后问答”的产品，背后其实包含 Parser、Chunker、Index、Retriever、Reranker、Citation 和 Agent Graph 多个层。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| [RAGFlow](https://github.com/infiniflow/ragflow) | 87.2k | Apache-2.0 | 完整 RAG 引擎 | 文档解析、Chunk、混合检索、Agentic RAG |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

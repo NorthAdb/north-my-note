@@ -347,5 +347,5 @@ Session
 
 ## 🔗 关联笔记
 
-- [[领域/Claude Code记忆系统与Agent记忆架构]] — Agent 记忆系统总览
+- [[Claude Code记忆系统与Agent记忆架构]] — Agent 记忆系统总览
 - [[2026-07-31-Claude-Code结构化记忆工作流-AutoMemory详解]] — AutoMemory 实战篇

@@ -45,6 +45,6 @@ Embedding（向量嵌入）是将文本映射为稠密向量的核心技术，�
 
 ## 来源提及
 
-- "Embedding 模型把文本映射为向量：" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "查询向量与文档向量之间可以用 cosine、dot product 或 Euclidean distance 比较。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "> Embedding 表示“相似”，不表示“真实”、不表示“最新”、不表示“用户有权阅读”。高相似度文本也可能过时、错误、被污染或无权访问。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Embedding 模型把文本映射为向量：" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "查询向量与文档向量之间可以用 cosine、dot product 或 Euclidean distance 比较。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "> Embedding 表示“相似”，不表示“真实”、不表示“最新”、不表示“用户有权阅读”。高相似度文本也可能过时、错误、被污染或无权访问。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

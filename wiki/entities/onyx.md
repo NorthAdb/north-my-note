@@ -30,6 +30,6 @@ Onyx 是一个面向企业和团队知识系统的开源搜索与 RAG 项目（o
 
 ## 来源提及
 
-- "Onyx 面向企业和团队知识系统，重点是连接器、权限、增量索引、混合搜索、项目和 Persona。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "Onyx 的教训是：企业级 RAG 的难点往往不是“换哪个 Embedding”，而是数据同步、权限、删除、增量更新、连接器失败和可审计性。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| [Onyx](https://github.com/onyx-dot-app/onyx) | 31.5k | MIT + Enterprise 混合 | 企业搜索/RAG | 连接器、ACL、增量索引、联邦检索 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Onyx 面向企业和团队知识系统，重点是连接器、权限、增量索引、混合搜索、项目和 Persona。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Onyx 的教训是：企业级 RAG 的难点往往不是“换哪个 Embedding”，而是数据同步、权限、删除、增量更新、连接器失败和可审计性。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| [Onyx](https://github.com/onyx-dot-app/onyx) | 31.5k | MIT + Enterprise 混合 | 企业搜索/RAG | 连接器、ACL、增量索引、联邦检索 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

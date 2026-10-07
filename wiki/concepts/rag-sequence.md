@@ -46,6 +46,6 @@ p(y|x) ≈ Σ_z p(z|x) p(y|x,z)
 
 ## 来源提及
 
-- "对一条完整回答使用同一组潜在文档：" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "p(y | x) ≈ Σ p(z | x) p(y | x, z)" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "适合把一个候选文档看作整条回答的主要证据。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "对一条完整回答使用同一组潜在文档：" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "p(y | x) ≈ Σ p(z | x) p(y | x, z)" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "适合把一个候选文档看作整条回答的主要证据。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

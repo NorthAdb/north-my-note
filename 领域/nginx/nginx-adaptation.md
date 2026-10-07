@@ -122,11 +122,11 @@ SSL_shutdown                          →    HITLS_Close
 
 ### 4.2 openHiTLS 潜在缺口（需实测确认）
 
-| 潜在缺口 | nginx 需要什么 | 应对策略 |
-|---------|--------------|---------|
-| Session 序列化 | `SSL_SESSION` 二进制跨 worker 共享（`ssl_session_cache shared:`） | 退化为进程内缓存，或向 openHiTLS 提增强 |
-| SNI 回调中切换配置 | 回调里换证书/配置后继续握手 | 适配层获取 ClientHello 数据重建配置，或 openHiTLS 增强 |
-| 非阻塞错误码粒度 | 精确区分"想读/想写/致命错误" | openHiTLS 已有 `RECV_BUF_EMPTY/IO_BUSY`，大概率够用 |
+| 潜在缺口        | nginx 需要什么                                                | 应对策略                                        |
+| ----------- | --------------------------------------------------------- | ------------------------------------------- |
+| Session 序列化 | `SSL_SESSION` 二进制跨 worker 共享（`ssl_session_cache shared:`） | 退化为进程内缓存，或向 openHiTLS 提增强                   |
+| SNI 回调中切换配置 | 回调里换证书/配置后继续握手                                            | 适配层获取 ClientHello 数据重建配置，或 openHiTLS 增强     |
+| 非阻塞错误码粒度    | 精确区分"想读/想写/致命错误"                                          | openHiTLS 已有 `RECV_BUF_EMPTY/IO_BUSY`，大概率够用 |
 
 ### 4.3 重要原则
 
@@ -140,10 +140,10 @@ SSL_shutdown                          →    HITLS_Close
 
 ### 5.1 判别依据（国标 GB/T 38636 / GM/T 0024 特征）
 
-| 特征 | TLCP 1.1 | 国际 TLS |
-|------|----------|---------|
-| ClientHello 版本号 | `0x0101` | `0x0301` ~ `0x0304` |
-| CipherSuite | `0xE011/0xE013/0xE017/0xE019`（SM4+SM3 系） | `0x13xx/0xC0xx/0x00xx` |
+| 特征              | TLCP 1.1                                 | 国际 TLS                 |
+| --------------- | ---------------------------------------- | ---------------------- |
+| ClientHello 版本号 | `0x0101`                                 | `0x0301` ~ `0x0304`    |
+| CipherSuite     | `0xE011/0xE013/0xE017/0xE019`（SM4+SM3 系） | `0x13xx/0xC0xx/0x00xx` |
 
 ### 5.2 推荐架构（两层兜底）
 
@@ -177,13 +177,13 @@ SSL_shutdown                          →    HITLS_Close
 
 ## 7. nginx 1.29.6 新特性适配
 
-| 新特性 | nginx 侧 | openHiTLS 侧 |
-|--------|---------|-------------|
-| Provider 接口（`ssl_provider` 指令，1.27+） | 将指令映射为 openHiTLS 的 provider 加载（`crypto/provider` 可加载算法模块），或做等价能力映射 | 确认 provider 加载 API 语义 |
-| HTTP/2 对上游 | 保证 ALPN 协商正确（server 侧 `h2`，upstream 侧 `h2c`） | 原生支持 ALPN |
-| 新版 SNI 回调（1.25+） | 适配"ClientHello 解析完成后回调、回调中可切换配置"的语义 | 确认 SNI 回调切换 ctx/配置的支持度（`hitls_sni.h`） |
-| 会话复用 | `ssl_session_cache shared:SSL:10m` 跨 worker 共享 | 确认 session 导出/导入（`hitls_session.h`） |
-| 双向认证 | `ssl_verify_client` → CA 列表 + 校验回调 | 确认 TLS 1.3 CertificateRequest 语义 |
+| 新特性                                  | nginx 侧                                                            | openHiTLS 侧                           |
+| ------------------------------------ | ------------------------------------------------------------------ | ------------------------------------- |
+| Provider 接口（`ssl_provider` 指令，1.27+） | 将指令映射为 openHiTLS 的 provider 加载（`crypto/provider` 可加载算法模块），或做等价能力映射 | 确认 provider 加载 API 语义                 |
+| HTTP/2 对上游                           | 保证 ALPN 协商正确（server 侧 `h2`，upstream 侧 `h2c`）                       | 原生支持 ALPN                             |
+| 新版 SNI 回调（1.25+）                     | 适配"ClientHello 解析完成后回调、回调中可切换配置"的语义                                | 确认 SNI 回调切换 ctx/配置的支持度（`hitls_sni.h`） |
+| 会话复用                                 | `ssl_session_cache shared:SSL:10m` 跨 worker 共享                     | 确认 session 导出/导入（`hitls_session.h`）   |
+| 双向认证                                 | `ssl_verify_client` → CA 列表 + 校验回调                                 | 确认 TLS 1.3 CertificateRequest 语义      |
 
 ---
 
@@ -198,15 +198,16 @@ SSL_shutdown                          →    HITLS_Close
 
 ## 9. 分阶段实施路径
 
-| 阶段 | 内容 | 验证方式 |
-|------|------|---------|
-| 0 | openHiTLS 构建与自测 | 本仓库 `testcode/script` 三件套（build_hitls.sh / build_sdv.sh / execute_sdv.sh） |
-| 1 | 最小闭环：单证书 TLS 1.2/1.3 跑通 nginx HTTPS | 标准 OpenSSL s_client / 浏览器访问 |
-| 2 | TLCP 双证书握手 | Tongsuo / GmSSL 的 s_client（标准 s_client 不支持 TLCP） |
-| 3 | 单端口自适应 | 国密客户端 + 国际客户端并发访问 443 |
-| 4 | 补齐特性：SNI / ALPN / 会话复用 / 双向认证 / Provider / HTTP2 上游 | 分项用例 |
-| 5 | 性能对比 | 与 OpenSSL + Tongsuo 的国密 nginx 对比（openssl s_time / wrk / nginx 日志） |
-| 6 | 社区用例 | nginx 官方测试套件 nginx-tests（Test::Nginx Perl 框架），跑 HTTPS/SNI/ALPN/session 相关组 |
+| 阶段  | 内容                                                  | 验证方式                                                                       |
+| --- | --------------------------------------------------- | -------------------------------------------------------------------------- |
+| 0   | openHiTLS 构建与自测                                     | 本仓库 `testcode/script` 三件套（build_hitls.sh / build_sdv.sh / execute_sdv.sh）  |
+| 1   | 最小闭环：单证书 TLS 1.2/1.3 跑通 nginx HTTPS                 | 标准 OpenSSL s_client / 浏览器访问                                                |
+| 2   | TLCP 双证书握手                                          | Tongsuo / GmSSL 的 s_client（标准 s_client 不支持 TLCP）                           |
+| 3   | 单端口自适应                                              | 国密客户端 + 国际客户端并发访问 443                                                      |
+| 4   | 补齐特性：SNI / ALPN / 会话复用 / 双向认证 / Provider / HTTP2 上游 | 分项用例                                                                       |
+| 5   | 性能对比                                                | 与 OpenSSL + Tongsuo 的国密 nginx 对比（openssl s_time / wrk / nginx 日志）          |
+| 6   | 社区用例                                                | nginx 官方测试套件 nginx-tests（Test::Nginx Perl 框架），跑 HTTPS/SNI/ALPN/session 相关组 |
+
 
 ---
 

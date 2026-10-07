@@ -232,7 +232,7 @@ source:
 
 ## 关联笔记
 
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent/LM 学习路线
+- [[AI Agent 智能体学习路线 2026]] — Agent/LM 学习路线
 - [[领域/2026-08-07-AI应用与Agent开发实战课-学习大纲]] — 大模型学习大纲（含微调/RAG/Agent 章节）
 - [[Clippings/书籍/AI-Agents-in-Depth-zh-CN]] — 李博杰书第 7 章"模型后训练"（SFT/RL 深度对应）
 - [[2026-08-06-AI-Agent开发框架选型-LangChain-LangGraph-LlamaIndex-小林面试笔记]] — Agent 框架选型
