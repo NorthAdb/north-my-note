@@ -54,8 +54,8 @@ Knowledge Graph（知识图谱，KG）是一种以图结构组织和存储知识
 
 ## 来源提及
 
-- "| **Knowledge Graph** | 节点、边、属性、类型 | 关系查询与图遍历 | 不一定 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "- **Knowledge Graph**：解决“哪些实体通过什么关系连接”；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Knowledge Graph** | 节点、边、属性、类型 | 关系查询与图遍历 | 不一定 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "- **Knowledge Graph**：解决“哪些实体通过什么关系连接”；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
 - "#### Graph Retrieval
 
-通过实体、关系、邻居和路径找证据，适合多跳问题，但需要图构建和实体治理。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+通过实体、关系、邻居和路径找证据，适合多跳问题，但需要图构建和实体治理。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

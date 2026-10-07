@@ -418,9 +418,9 @@ RAG 擅长"有没有证据支持这句话"，不擅长"所有 tuple 是否都满
 - [[Clippings/微信公众号/2026-09-24-给项目建Agent知识库-一套完整方法来了-Datawhale]] — 知识库的另一半：RAG 负责「找得到」，专家底座负责「第一眼看对」
 - [[Clippings/微信公众号/2026-09-01-RAG核心知识全解析（范式演进）]] — RAG 面试向基础 + 范式演进（Vector RAG / BM25 / GraphRAG / SAG / PageIndex）
 - [[Clippings/微信公众号/2026-08-04-GraphRAG与LightRAG-小林面试笔记]] — GraphRAG / LightRAG 对比
-- [[领域/RAG与LLM Wiki：原理、架构与开源实现]] — LLM Wiki 三层结构的本地沉淀
-- [[领域/rag_学习资料_从基础检索到知识工程]] — RAG 学习资料索引
-- [[领域/Agent 上下文压缩机制：六类核心机制与主流 Agent 实现]] — 上下文压缩机制（对应本文第 6 节）
-- [[领域/Claude Code记忆系统与Agent记忆架构]] — Memory vs RAG 的区别（对应本文边界 3）
-- [[领域/Agent_Skill_注入机制_Progressive_Disclosure与Zero_Resident]] — 上下文按需加载
+- [[RAG与LLM Wiki：原理、架构与开源实现]] — LLM Wiki 三层结构的本地沉淀
+- [[rag_学习资料_从基础检索到知识工程]] — RAG 学习资料索引
+- [[Agent 上下文压缩机制：六类核心机制与主流 Agent 实现]] — 上下文压缩机制（对应本文第 6 节）
+- [[Claude Code记忆系统与Agent记忆架构]] — Memory vs RAG 的区别（对应本文边界 3）
+- [[Agent_Skill_注入机制_Progressive_Disclosure与Zero_Resident]] — 上下文按需加载
 - [[wiki/index]] — Karpathy LLM Wiki（对应本文第 5 节的实践载体）

@@ -133,4 +133,4 @@ flowchart TD
 - [[Clippings/微信公众号/2026-08-27-Multi-Agent工作流成本优化-10个实践]]
 - [[Clippings/Bilibili/2026-07-31-10分钟讲透AI-Agent-8种主流架构]]
 - [[Clippings/微信公众号/2026-07-30-Agent高频面试题全解析-小林面试笔记]]
-- [[领域/AI Agent 智能体学习路线 2026]]
+- [[AI Agent 智能体学习路线 2026]]

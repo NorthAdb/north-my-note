@@ -585,5 +585,5 @@ python s20_comprehensive/code.py
 
 ## 🔗 关联笔记
 
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线
 - [[领域/2026暑假手账]] — 假期总结

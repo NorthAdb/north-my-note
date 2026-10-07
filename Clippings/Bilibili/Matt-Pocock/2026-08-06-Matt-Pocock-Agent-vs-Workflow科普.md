@@ -116,7 +116,7 @@ LLM ──调用工具──→ 执行代码 ──结果返回──→ LLM（�
 - [[2026-07-30-Agent高频面试题全解析-小林面试笔记]] — 同主题面试题（第 2 题 Agent vs Workflow）
 - [[Matt-Pocock方法论精华-完整工作流与技能体系]] — Matt 方法论汇总
 
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线
 - [[2026-07-30-Agent架构Skill和Tool本质区别-动画详解]] — Agent 架构基础概念
 - [[2026-08-06-AI-Agent开发框架选型-LangChain-LangGraph-LlamaIndex-小林面试笔记]] — 框架选型（小林面试笔记）
 - [[2026-07-31-为什么顶级大模型都在卷MoE-新物种日记]] — 大模型架构

@@ -43,5 +43,5 @@ Context Engineering（上下文工程）指在候选资料被召回（Retrieval�
 
 ## 来源提及
 
-- "RAG 只负责“找到一些候选资料”。Context Engineering 负责决定：哪些资料真的进入上下文；是否需要父块、摘要、邻居或历史记忆；资料按什么顺序放置；如何设置来源、版本和可信度；如何压缩过长内容；如何隔离资料中的指令和系统指令。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "所以 RAG 是 Context Engineering 的一个输入渠道，而不是全部。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "RAG 只负责“找到一些候选资料”。Context Engineering 负责决定：哪些资料真的进入上下文；是否需要父块、摘要、邻居或历史记忆；资料按什么顺序放置；如何设置来源、版本和可信度；如何压缩过长内容；如何隔离资料中的指令和系统指令。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "所以 RAG 是 Context Engineering 的一个输入渠道，而不是全部。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

@@ -196,7 +196,7 @@ Agent 通过工具与外部世界交互：
 | 程序记忆 | Skills 系统 | 可复用的能力模块 |
 | 情景记忆 | 事件记录 | 过去的操作和结果 |
 
-> 更多记忆系统详解 → [[领域/Claude Code记忆系统与Agent记忆架构.md]]
+> 更多记忆系统详解 → [[Claude Code记忆系统与Agent记忆架构]]
 
 ### 练习项目
 
@@ -559,8 +559,8 @@ Stage 7-9 高级应用 + 部署                  4-6 周
 - [[Clippings/书籍/AI-Agents-in-Depth-zh-CN.md]] — 李博杰《深入理解 AI Agent》开源书全文（深度参考）
 - [[领域/2026暑假手账]] — 假期学习总结与全库导航
 
-- [[领域/Claude Code记忆系统与Agent记忆架构.md]] — Agent 记忆系统详解
-- [[领域/Python vs TypeScript AI时代编程语言之争.md]] — 开发语言选择参考
-- [[领域/CodeWiki Google的AI驱动代码文档平台.md]] — AI 文档工具
+- [[Claude Code记忆系统与Agent记忆架构]] — Agent 记忆系统详解
+- [[Python vs TypeScript AI时代编程语言之争]] — 开发语言选择参考
+- [[CodeWiki Google的AI驱动代码文档平台]] — AI 文档工具
 - [[2026-07-28-我的GitHub加星项目]] — Agent 相关项目
 - [[Clippings/Bilibili/2026-07-28-我的B站AI编程收藏清单.md]] — 视频学习资源

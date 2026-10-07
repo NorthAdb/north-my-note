@@ -30,6 +30,6 @@ Ragas 是面向 [[concepts/rag|RAG]] 系统的开源评测工具，托管于 vib
 
 ## 来源提及
 
-- "Ragas 是一个评测工具，不是“评测结果真理”。它可以对回答拆分主张，再判断主张是否能从检索上下文推导出来，也提供 Context Precision 等检索相关指标。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "不同 Chunk、模型、Prompt 和评测数据会改变分数，不能把不同项目的 Ragas 分数直接比较。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "学习 Ragas 时要先理解指标假设，再运行脚本。LLM-as-a-Judge 也会错，必须搭配人工抽样、固定评测集和版本记录。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Ragas 是一个评测工具，不是“评测结果真理”。它可以对回答拆分主张，再判断主张是否能从检索上下文推导出来，也提供 Context Precision 等检索相关指标。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "不同 Chunk、模型、Prompt 和评测数据会改变分数，不能把不同项目的 Ragas 分数直接比较。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "学习 Ragas 时要先理解指标假设，再运行脚本。LLM-as-a-Judge 也会错，必须搭配人工抽样、固定评测集和版本记录。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

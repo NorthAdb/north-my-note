@@ -33,6 +33,6 @@ Haystack 是 deepset 团队维护的 Apache-2.0 开源 [[concepts/rag|RAG]] 管�
 
 ## 来源提及
 
-- "Haystack 的特点是组件和 Pipeline 显式连接，适合观察真实的数据流、条件分支和循环，而不是把所有逻辑隐藏在一个 Agent 调用中。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "haystack/components/preprocessors/hierarchical_document_splitter.py：父子层级切块；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "haystack/components/retrievers/multi_query_text_retriever.py：多查询检索；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Haystack 的特点是组件和 Pipeline 显式连接，适合观察真实的数据流、条件分支和循环，而不是把所有逻辑隐藏在一个 Agent 调用中。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "haystack/components/preprocessors/hierarchical_document_splitter.py：父子层级切块；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "haystack/components/retrievers/multi_query_text_retriever.py：多查询检索；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

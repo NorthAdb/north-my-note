@@ -28,12 +28,12 @@ S11 要解决的问题是：让耗时的 Bash 命令在后台执行，使 Agent 
 
 同步 vs 后台：
 
-| | 同步 (s04) | 后台 (s11) |
-|---|---|---|
-| 慢操作 | 当前工具调用被阻塞 | 后台线程执行 |
-| Agent Loop | 等待命令返回 | 收到占位结果后继续运行 |
-| 结果 | 命令结束后返回 | 先返回 `bg_id`，后续轮次收集结果 |
-| 判断标准 | — | bash 的 `run_in_background` 参数 |
+|            | 同步 (s04)  | 后台 (s11)                      |
+| ---------- | --------- | ----------------------------- |
+| 慢操作        | 当前工具调用被阻塞 | 后台线程执行                        |
+| Agent Loop | 等待命令返回    | 收到占位结果后继续运行                   |
+| 结果         | 命令结束后返回   | 先返回 `bg_id`，后续轮次收集结果          |
+| 判断标准       | —         | bash 的 `run_in_background` 参数 |
 
 ---
 
@@ -139,15 +139,15 @@ npm install 在后台运行时，Agent Loop 继续执行了 read_file。
 
 ## 本章新增了什么
 
-| 组件 | S04 Kernel | S11 |
-|------|-----------|-----------|
-| 执行模型 | 全部同步 | 慢操作后台线程 + 通知注入 |
-| bash schema | `command` | `command` + `run_in_background` |
-| 新函数 | — | `should_run_background`, `start_background_task`, `collect_background_results`, `inject_background_results` |
-| 新类型 | — | `BackgroundManager` |
-| 通知格式 | — | `<task_notification>`（不复用 tool_use_id） |
-| 循环行为 | 工具同步执行 | 显式后台执行，后续轮次收集完成结果 |
-| 工具 | 5 | 5（bash schema 增加一个参数） |
+| 组件          | S04 Kernel | S11                                                                                                         |
+| ----------- | ---------- | ----------------------------------------------------------------------------------------------------------- |
+| 执行模型        | 全部同步       | 慢操作后台线程 + 通知注入                                                                                              |
+| bash schema | `command`  | `command` + `run_in_background`                                                                             |
+| 新函数         | —          | `should_run_background`, `start_background_task`, `collect_background_results`, `inject_background_results` |
+| 新类型         | —          | `BackgroundManager`                                                                                         |
+| 通知格式        | —          | `<task_notification>`（不复用 tool_use_id）                                                                      |
+| 循环行为        | 工具同步执行     | 显式后台执行，后续轮次收集完成结果                                                                                           |
+| 工具          | 5          | 5（bash schema 增加一个参数）                                                                                       |
 
 ---
 

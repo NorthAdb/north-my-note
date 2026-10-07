@@ -33,6 +33,6 @@ TencentDB-Agent-Memory 是腾讯云开源的团队级 Agent Memory Hub（Tencent
 
 ## 来源提及
 
-- "它不是纯粹的 Karpathy 式个人 Wiki，而是团队级 Agent Memory Hub，明确把记忆分成 Chat Memory、Skill、LLM-Wiki、Code-Graph 四类资产。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它强调“可下钻、可恢复”，上层摘要必须能够通过 `node_id`、`result_ref` 回到原始文本。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它把“LLM Wiki”放进了更大的 Memory 分层体系：页面不是唯一的知识对象，原始事件、原子事实、场景、Persona、技能和代码图可以协同存在。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它不是纯粹的 Karpathy 式个人 Wiki，而是团队级 Agent Memory Hub，明确把记忆分成 Chat Memory、Skill、LLM-Wiki、Code-Graph 四类资产。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它强调“可下钻、可恢复”，上层摘要必须能够通过 `node_id`、`result_ref` 回到原始文本。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它把“LLM Wiki”放进了更大的 Memory 分层体系：页面不是唯一的知识对象，原始事件、原子事实、场景、Persona、技能和代码图可以协同存在。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

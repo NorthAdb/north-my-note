@@ -318,5 +318,5 @@ Harness 能力：Skills / Subagents / Sandbox / Context
 
 ## 🔗 关联笔记
 - [[2026-07-28-我的GitHub加星项目]] — 自收藏项目索引（部分重叠）
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线（Harness 相关 Stage 4）
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线（Harness 相关 Stage 4）
 - [[领域/2026暑假手账]] — 假期总结

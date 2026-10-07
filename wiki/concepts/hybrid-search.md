@@ -52,6 +52,6 @@ Hybrid Search（混合检索）是一种将多种异构检索方式融合的召�
 
 ## 来源提及
 
-- "生产系统经常采用：dense ANN + BM25/sparse + metadata/ACL filter → hybrid fusion → rerank" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "现代应用中的 hybrid：dense、BM25、metadata、graph、symbolic 等多种检索方式融合。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| **Hybrid RAG** | dense + sparse/BM25，或再加 metadata/graph | 既有语义问题又有精确词 | 需要融合与调参 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "生产系统经常采用：dense ANN + BM25/sparse + metadata/ACL filter → hybrid fusion → rerank" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "现代应用中的 hybrid：dense、BM25、metadata、graph、symbolic 等多种检索方式融合。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Hybrid RAG** | dense + sparse/BM25，或再加 metadata/graph | 既有语义问题又有精确词 | 需要融合与调参 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

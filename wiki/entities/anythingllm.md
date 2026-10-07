@@ -28,6 +28,6 @@ AnythingLLM 是 Mintplex-Labs 维护的开源 AI 聊天与 RAG 平台，其 GitH
 
 ## 来源提及
 
-- "| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | 64.6k | MIT | Workspace RAG + Agent | Embedding Worker、命名空间、向量 Memory |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "AnythingLLM 的持久对象主要是 Workspace 和向量库 namespace，而不是 LLM Wiki 的实体页和概念页。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它说明：向量 Memory 足够支撑很多文档问答，但不会自动长出可浏览的概念层；“可检索”与“可理解、可维护”是两件事。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | 64.6k | MIT | Workspace RAG + Agent | Embedding Worker、命名空间、向量 Memory |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "AnythingLLM 的持久对象主要是 Workspace 和向量库 namespace，而不是 LLM Wiki 的实体页和概念页。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它说明：向量 Memory 足够支撑很多文档问答，但不会自动长出可浏览的概念层；“可检索”与“可理解、可维护”是两件事。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

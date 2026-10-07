@@ -29,6 +29,6 @@ nashsu/llm_wiki 是与 [[entities/andrej-karpathy|Andrej Karpathy]] 的 [[concep
 
 ## 来源提及
 
-- "这是与 Karpathy gist 最贴近的产品化实现。它不是简单的“文档问答”，而是把资料编译为互链页面，并提供查询、图分析和体检能力。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它最适合学习“RAG 之外的部分”：页面类型、写回、链接图、来源溯源、维护和 lint。它也证明了：小规模 Wiki 不一定一开始就需要向量数据库，`index.md + 词法搜索 + 图遍历` 可以先工作。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "src/lib/ingest.ts：startIngest、写入流程、来源身份和 Frontmatter；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "这是与 Karpathy gist 最贴近的产品化实现。它不是简单的“文档问答”，而是把资料编译为互链页面，并提供查询、图分析和体检能力。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它最适合学习“RAG 之外的部分”：页面类型、写回、链接图、来源溯源、维护和 lint。它也证明了：小规模 Wiki 不一定一开始就需要向量数据库，`index.md + 词法搜索 + 图遍历` 可以先工作。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "src/lib/ingest.ts：startIngest、写入流程、来源身份和 Frontmatter；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

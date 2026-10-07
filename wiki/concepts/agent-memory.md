@@ -42,6 +42,6 @@ Agent Memory（智能体记忆）是与 RAG、LLM Wiki 并列的第三类知识�
 
 ## 来源提及
 
-- "| **Agent Memory** | 事实、偏好、事件、技能、状态 | 跨轮次召回与写回 | 通常不是 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "- **Agent Memory**：解决“Agent 应该记住哪些事实、经历、偏好和技能”；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它不是纯粹的 Karpathy 式个人 Wiki，而是团队级 Agent Memory Hub，明确把记忆分成 Chat Memory、Skill、LLM-Wiki、Code-Graph 四类资产。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **Agent Memory** | 事实、偏好、事件、技能、状态 | 跨轮次召回与写回 | 通常不是 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "- **Agent Memory**：解决“Agent 应该记住哪些事实、经历、偏好和技能”；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它不是纯粹的 Karpathy 式个人 Wiki，而是团队级 Agent Memory Hub，明确把记忆分成 Chat Memory、Skill、LLM-Wiki、Code-Graph 四类资产。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

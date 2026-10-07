@@ -489,5 +489,5 @@ Codex 停下来，也不代表你的要求一定完成了。比如修一个 Bug�
 - [[Clippings/微信公众号/2026-08-14-DeepSeek-Harness拆解-一套能拼装的Agent架构]]
 - [[Clippings/微信公众号/2026-09-04-Cordis-DeepSeek-Harness的心脏-腾讯技术工程]]
 - [[Clippings/微信公众号/2026-08-11-Claude-Code大代码库harness-小林coding]]
-- [[领域/Agent 上下文压缩机制：六类核心机制与主流 Agent 实现]]
-- [[领域/Claude Code记忆系统与Agent记忆架构]]
+- [[Agent 上下文压缩机制：六类核心机制与主流 Agent 实现]]
+- [[Claude Code记忆系统与Agent记忆架构]]

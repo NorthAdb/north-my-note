@@ -47,6 +47,6 @@ Provenance（来源溯源）是 RAG 系统中记录证据来源元数据的机�
 
 ## 来源提及
 
-- "Provenance（来源溯源）至少应记录：" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "要区分两个命题：**引用正确**：这个结论确实能在该来源中找到支持；**来源真实**：来源本身可信、没有过时、没有被污染。引用只能解决第一层，不能自动解决第二层。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "答案引用不可信 | Provenance 缺失 | 保存 chunk/page/source_id，做 citation eval" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Provenance（来源溯源）至少应记录：" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "要区分两个命题：**引用正确**：这个结论确实能在该来源中找到支持；**来源真实**：来源本身可信、没有过时、没有被污染。引用只能解决第一层，不能自动解决第二层。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "答案引用不可信 | Provenance 缺失 | 保存 chunk/page/source_id，做 citation eval" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

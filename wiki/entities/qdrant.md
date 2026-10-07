@@ -29,6 +29,6 @@ Qdrant 是一个用 Rust 编写的开源向量数据库，采用 Apache-2.0 许�
 
 ## 来源提及
 
-- "| [Qdrant](https://github.com/qdrant/qdrant) | 33.9k | Apache-2.0 | 向量数据库 | HNSW、Sparse、Payload、Hybrid、分布式 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "Qdrant 是 Rust 编写的向量数据库，支持 dense、sparse、multi-vector、Payload 过滤、Hybrid、量化、分片和复制。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "官方文档还展示了 Hybrid Queries、RRF/DBSF、Multi-Stage Query、Quantization 与安全配置。学习它能补齐“框架调用背后，ANN、过滤和分布式存储究竟做了什么”。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| [Qdrant](https://github.com/qdrant/qdrant) | 33.9k | Apache-2.0 | 向量数据库 | HNSW、Sparse、Payload、Hybrid、分布式 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Qdrant 是 Rust 编写的向量数据库，支持 dense、sparse、multi-vector、Payload 过滤、Hybrid、量化、分片和复制。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "官方文档还展示了 Hybrid Queries、RRF/DBSF、Multi-Stage Query、Quantization 与安全配置。学习它能补齐“框架调用背后，ANN、过滤和分布式存储究竟做了什么”。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

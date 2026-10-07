@@ -41,5 +41,5 @@ HyDE（Hypothetical Document Embeddings，假设文档嵌入）是一种查询�
 
 ## 来源提及
 
-- "4. **HyDE**：先生成假设性回答文档，再用该文档向量检索；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "| **HyDE** | 如何用假设答案接近文档空间 | 查询扩展 |" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "4. **HyDE**：先生成假设性回答文档，再用该文档向量检索；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "| **HyDE** | 如何用假设答案接近文档空间 | 查询扩展 |" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

@@ -26,7 +26,7 @@ publisher:
 | ---------------------------- | ----------------------------- | ----------- |
 | 腾讯技术工程文章                     | 为什么需要 Graph、Graph 是什么、什么时候值得用 | 建立全局认知与选型判断 |
 | Datawhale 14 步手册             | 如何拆节点、定契约、并行、路由、验证、收敛         | 把认知落成工程实践   |
-| [[领域/AI Agent 智能体学习路线 2026]] | 应该先学什么、后学什么                   | 规划学习顺序      |
+| [[AI Agent 智能体学习路线 2026]] | 应该先学什么、后学什么                   | 规划学习顺序      |
 
 > **一句话结论：Graph 不是 Loop 的升级版，而是 Loop 的组织方式。** 先把单体 loop 跑稳，再用 graph 管理多个执行节点之间的状态、路由、验证和恢复。
 
@@ -508,7 +508,7 @@ while (dry < 2) {                       // 连续两轮空手而归就停下
 
 ## 三、与 AI Agent 学习路线对照学习
 
-[[领域/AI Agent 智能体学习路线 2026]] 是“从基础到生产”的纵向路线；本笔记把其中的 **Loop、Harness、Multi-Agent、Eval、部署** 横向串成了一条 Graph Engineering 主线。
+[[AI Agent 智能体学习路线 2026]] 是“从基础到生产”的纵向路线；本笔记把其中的 **Loop、Harness、Multi-Agent、Eval、部署** 横向串成了一条 Graph Engineering 主线。
 
 | 学习路线阶段 | Graph Engineering 对应知识 | 学习重点 / 验收标准 |
 |---|---|---|
@@ -542,7 +542,7 @@ while (dry < 2) {                       // 连续两轮空手而归就停下
 
 ## 🔗 关联笔记
 
-- [[领域/AI Agent 智能体学习路线 2026]] — 学习路线总纲（Stage 4-5：LangGraph 框架 / 多 Agent 系统）
+- [[AI Agent 智能体学习路线 2026]] — 学习路线总纲（Stage 4-5：LangGraph 框架 / 多 Agent 系统）
 - [[2026-07-31-Agent系统架构设计-Harness-Loop-Graph怎么选]] — Loop vs Graph 选型
 - [[2026-07-31-10分钟讲透AI-Agent-8种主流架构]] — 8 种主流 Agent 架构
 - [[2026-08-06-AI-Agent开发框架选型-LangChain-LangGraph-LlamaIndex-小林面试笔记]] — 框架选型

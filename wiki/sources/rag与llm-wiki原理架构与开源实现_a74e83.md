@@ -2,9 +2,12 @@
 type: source
 created: 2026-08-11
 updated: 2026-08-11
-source_file: "[[领域/RAG与LLM Wiki：原理、架构与开源实现.md]]"
-tags: [note]
-aliases: ["RAG与LLM Wiki：原理、架构与开源实现", "RAG 与 LLM Wiki：从检索增强到知识编译"]
+source_file: "[[RAG与LLM Wiki：原理、架构与开源实现]]"
+tags:
+  - note
+aliases:
+  - RAG与LLM Wiki：原理、架构与开源实现
+  - RAG 与 LLM Wiki：从检索增强到知识编译
 contentHash: 9ce6-6130ad2b
 generation_complete: true
 ---
@@ -12,7 +15,7 @@ generation_complete: true
 # RAG 与 LLM Wiki：从检索增强到知识编译 - Summary
 
 ## 来源
-- 原始文件：[[领域/RAG与LLM Wiki：原理、架构与开源实现.md|RAG 与 LLM Wiki：原理、架构与开源实现]]
+- 原始文件：[[RAG与LLM Wiki：原理、架构与开源实现|RAG 与 LLM Wiki：原理、架构与开源实现]]
 - 摄取日期：2026-08-11
 
 ## 核心内容

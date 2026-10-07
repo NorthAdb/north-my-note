@@ -92,7 +92,7 @@ source:
 
 | 主题 | 内容 | 资源 |
 |------|------|------|
-| LLM 基础 | Transformer 架构、GPT/DeepSeek 系列 | [[领域/AI Agent 智能体学习路线 2026\|AI Agent 学习路线]] - Stage 0 |
+| LLM 基础 | Transformer 架构、GPT/DeepSeek 系列 | [[AI Agent 智能体学习路线 2026\|AI Agent 学习路线]] - Stage 0 |
 | Prompt Engineering | CoT、Few-shot、System Prompt | Microsoft AI Agents for Beginners |
 | Agent 核心概念 | Agent Loop（Think → Act → Observe）、ReAct 模式 | Anthropic Building Effective Agents |
 | Tool Calling | Function Calling 机制、工具定义 | OpenAI / DeepSeek API 文档 |
@@ -236,7 +236,7 @@ A：没有，我全程看的文档。Agent 领域文档比视频更有价值。�
 
 | 资源 | 说明 |
 |------|------|
-| [[领域/AI Agent 智能体学习路线 2026]] | 完整 9 阶段 Agent 学习路线（本 Vault） |
+| [[AI Agent 智能体学习路线 2026]] | 完整 9 阶段 Agent 学习路线（本 Vault） |
 | [[项目/claude-code-best-practice/helloagent-学习指南]] | Datawhale Hello-Agent 项目指南（本 Vault） |
 | [[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目]] | Java + Agent 实战项目推荐（本 Vault） |
 | [Microsoft AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 免费课程 |
@@ -261,7 +261,7 @@ A：没有，我全程看的文档。Agent 领域文档比视频更有价值。�
 - [[2026-07-31-28届个人Java+Agent学习路线-小红书]] — 28届求职向路线
 - [[领域/2026暑假手账]] — 假期总结
 
-- [[领域/AI Agent 智能体学习路线 2026]] — AI Agent 完整 9 阶段学习路线
+- [[AI Agent 智能体学习路线 2026]] — AI Agent 完整 9 阶段学习路线
 - [[项目/Javase/JavaSE 学习清单]] — Java SE 详细学习清单
 - [[项目/claude-code-best-practice/helloagent-学习指南]] — HelloAgent 项目学习指南
 - [[Clippings/小黑盒/小黑盒推荐适合新手学习的AI项目]] — Java AI 项目实战推荐

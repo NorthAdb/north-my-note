@@ -26,5 +26,5 @@ Andrej Karpathy 是 LLM Wiki 概念的最初提出者，其 gist《LLM Wiki idea
 
 ## 来源提及
 
-- "Andrej Karpathy 的 [LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 是一个"idea file"，不是完整应用，也不是官方的 `karpathy/llm-wiki` 仓库。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "Karpathy 原文提到的约 100 个来源、数百页面，更像一个"人工可舒适维护"的实践尺度，不是系统硬限制。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Andrej Karpathy 的 [LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 是一个"idea file"，不是完整应用，也不是官方的 `karpathy/llm-wiki` 仓库。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "Karpathy 原文提到的约 100 个来源、数百页面，更像一个"人工可舒适维护"的实践尺度，不是系统硬限制。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

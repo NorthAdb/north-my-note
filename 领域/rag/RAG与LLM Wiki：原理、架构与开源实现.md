@@ -1216,9 +1216,9 @@ Cognee 将数据经过 `cognify` 转化为实体、关系、摘要和 Embedding�
 - [[2026-09-01-RAG核心知识全解析（范式演进）]]：RAG 基础、切块、Embedding、重排、向量库、评估；
 - [[2026-08-04-GraphRAG与LightRAG-小林面试笔记]]：图增强检索和选型；
 - [[Clippings/Bilibili/2026-08-04-保姆教程-卡帕西LLM-Wiki强在哪]]：LLM Wiki 的工作流与 Obsidian 组织方式；
-- [[领域/CodeWiki Google的AI驱动代码文档平台]]：代码 Wiki 与代码理解；
-- [[领域/Claude Code记忆系统与Agent记忆架构]]：语义记忆、RAG、GraphRAG、Agent Memory；
-- [[领域/AI Agent 智能体学习路线 2026]]：学习阶段与实践阶梯。
+- [[CodeWiki Google的AI驱动代码文档平台]]：代码 Wiki 与代码理解；
+- [[Claude Code记忆系统与Agent记忆架构]]：语义记忆、RAG、GraphRAG、Agent Memory；
+- [[AI Agent 智能体学习路线 2026]]：学习阶段与实践阶梯。
 
 ### 10.1 当前 Vault 的 LLM Wiki 插件状态
 
@@ -1421,9 +1421,9 @@ BM25 Top-50
 - [[2026-09-01-RAG核心知识全解析（范式演进）]] — RAG 基础、切块、Embedding、重排、向量库和评估
 - [[2026-08-04-GraphRAG与LightRAG-小林面试笔记]] — GraphRAG、LightRAG 的索引、查询与选型
 - [[Clippings/Bilibili/2026-08-04-保姆教程-卡帕西LLM-Wiki强在哪]] — LLM Wiki 与 Obsidian 工作流
-- [[领域/Claude Code记忆系统与Agent记忆架构]] — Agent Memory、语义记忆和 GraphRAG
-- [[领域/CodeWiki Google的AI驱动代码文档平台]] — Code Wiki 与代码理解
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线中的 RAG、Memory、Harness 和 Multi-Agent
+- [[Claude Code记忆系统与Agent记忆架构]] — Agent Memory、语义记忆和 GraphRAG
+- [[CodeWiki Google的AI驱动代码文档平台]] — Code Wiki 与代码理解
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线中的 RAG、Memory、Harness 和 Multi-Agent
 
 ## 主要一手资料
 

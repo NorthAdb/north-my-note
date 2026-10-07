@@ -28,8 +28,8 @@ LangChain 是一个以 MIT 许可证开源的 LLM/Agent 基础框架，GitHub �
 
 ## 来源提及
 
-- "LangChain 不是一个单独的 RAG 产品，而是把 LLM 应用中的模型、文档、Retriever、VectorStore、Runnable 和 Callback 抽象成可组合接口。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "LangChain 不是一个单独的 RAG 产品，而是把 LLM 应用中的模型、文档、Retriever、VectorStore、Runnable 和 Callback 抽象成可组合接口。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
 - "学习重点不是记住多少个集成类，而是理解：
 
 Document → Splitter → Embeddings → VectorStore
-Query → Retriever → Reranker/Postprocessor → Runnable/Prompt → Model" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+Query → Retriever → Reranker/Postprocessor → Runnable/Prompt → Model" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]

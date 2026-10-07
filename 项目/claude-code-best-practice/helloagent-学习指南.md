@@ -159,5 +159,5 @@ Python 基础
 
 ## 🔗 关联笔记
 
-- [[领域/Java后端+Agent开发学习路线 2026]] — Java+Agent 主线路线
-- [[领域/AI Agent 智能体学习路线 2026]] — Agent 学习路线
+- [[Java后端+Agent开发学习路线 2026]] — Java+Agent 主线路线
+- [[AI Agent 智能体学习路线 2026]] — Agent 学习路线

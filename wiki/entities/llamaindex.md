@@ -29,6 +29,6 @@ LlamaIndex（run-llama/llama_index）是一个以数据为中心的 RAG 与 Agen
 
 ## 来源提及
 
-- "LlamaIndex 把 Documents、Nodes、Ingestion Pipeline、Index、Retriever、Postprocessor、Response Synthesizer 和 Storage 组织成一套数据框架。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "它适合研究“文档如何逐步变成 Node、Node 如何带 metadata、多个 Retriever 如何融合，以及回答如何合成”。" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
-- "llama-index-core/llama_index/core/retrievers/fusion_retriever.py：多查询生成和结果融合；" — [[领域/RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "LlamaIndex 把 Documents、Nodes、Ingestion Pipeline、Index、Retriever、Postprocessor、Response Synthesizer 和 Storage 组织成一套数据框架。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "它适合研究“文档如何逐步变成 Node、Node 如何带 metadata、多个 Retriever 如何融合，以及回答如何合成”。" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
+- "llama-index-core/llama_index/core/retrievers/fusion_retriever.py：多查询生成和结果融合；" — [[RAG与LLM Wiki：原理、架构与开源实现|RAG与LLM Wiki：原理、架构与开源实现]]
