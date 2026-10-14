@@ -24,28 +24,28 @@ TodoWrite 没有记录这些依赖和分工。它可以显示“编写 API”仍
 
 ## 解决方案
 
-![Task System Overview](https://gitee.com/cheng-jiaqing/images/raw/master/task-system-overview.svg)
+![Task System Overview|645](https://gitee.com/cheng-jiaqing/images/raw/master/task-system-overview.svg)
 
 代码保留 S04 的五个基础工具、Permission、Hooks 和统一 `execute_tool`，再加入 6 个任务工具、`.tasks/` 目录持久化和 `blockedBy` 依赖检查。
 
 TodoWrite vs Task System：
 
-| | TodoWrite (s05) | Task System (s10) |
-|---|---|---|
-| 定位 | 当前任务的执行清单 | 可恢复的任务系统 |
-| 存储 | 进程内 / 会话状态 | `.tasks/{id}.json` |
-| 依赖 | 无 | `blockedBy` 依赖图 |
-| 生命周期 | 当前会话 / 当前任务 | 跨会话保留 |
-| 分工 | 不负责任务认领 | `owner` / claim |
-| 状态 | pending / in_progress / completed | pending / in_progress / completed |
-| 粒度 | Agent 自己的步骤 | 可被认领、追踪、解锁的任务 |
-| 更新契约 | 整表替换 | 对单条记录执行创建、读取、更新、列举 |
+|      | TodoWrite (s05)                   | Task System (s10)                 |
+| ---- | --------------------------------- | --------------------------------- |
+| 定位   | 当前任务的执行清单                         | 可恢复的任务系统                          |
+| 存储   | 进程内 / 会话状态                        | `.tasks/{id}.json`                |
+| 依赖   | 无                                 | `blockedBy` 依赖图                   |
+| 生命周期 | 当前会话 / 当前任务                       | 跨会话保留                             |
+| 分工   | 不负责任务认领                           | `owner` / claim                   |
+| 状态   | pending / in_progress / completed | pending / in_progress / completed |
+| 粒度   | Agent 自己的步骤                       | 可被认领、追踪、解锁的任务                     |
+| 更新契约 | 整表替换                              | 对单条记录执行创建、读取、更新、列举                |
 
 ---
 
 ## 工作原理
 
-![Task DAG](https://gitee.com/cheng-jiaqing/images/raw/master/task-dag.svg)
+![Task DAG|645](https://gitee.com/cheng-jiaqing/images/raw/master/task-dag.svg)
 
 ### Task: 数据结构
 
